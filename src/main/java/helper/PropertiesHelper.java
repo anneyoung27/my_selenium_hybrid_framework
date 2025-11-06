@@ -1,5 +1,6 @@
 package helper;
 
+import org.apache.commons.logging.Log;
 import utils.LogUtils;
 
 import java.io.FileInputStream;
@@ -18,6 +19,8 @@ public class PropertiesHelper {
     public static Properties loadAllFiles(){
         LinkedList<String> files = new LinkedList<>();
         files.add("src/main/resources/config.properties");
+        // files.add("src/test/resources/configs/local.properties");
+        // files.add("src/test/resources/configs/production.properties");
 
         try {
             properties = new Properties();
@@ -32,6 +35,66 @@ public class PropertiesHelper {
             return properties;
         }catch (IOException ioe){
             return new Properties();
+        }
+    }
+
+    public static void setFile(String relPropertiesFilePath){
+        properties = new Properties();
+        try {
+            linkFile = SystemHelper.getCurrentDir() + relPropertiesFilePath;
+            file = new FileInputStream(linkFile);
+            properties.load(file);
+            file.close();
+        } catch (Exception e){
+            LogUtils.error("Failed to load properties file: ("+relPropertiesFilePath+"): "+ e.getMessage());
+        }
+    }
+
+    public static void setDefaultFile(){
+        properties = new Properties();
+        try {
+            linkFile = SystemHelper.getCurrentDir() + relPropertiesFilePathDefault;
+            file = new FileInputStream(linkFile);
+            properties.load(file);
+            file.close();
+        } catch (Exception e){
+            LogUtils.error("Failed to load default properties file: ("+relPropertiesFilePathDefault+"): "+ e.getMessage());
+        }
+    }
+
+    public static String getValue(String key){
+        String value = null;
+        try {
+            if (file == null) {
+                properties = new Properties();
+                linkFile = SystemHelper.getCurrentDir() + relPropertiesFilePathDefault;
+                file = new FileInputStream(linkFile);
+                properties.load(file);
+                file.close();
+            }
+            value = properties.getProperty(key);
+        }catch (IOException ioe){
+            LogUtils.error("Failed to get value from properties file for key: ("+key+"): "+ ioe.getMessage());
+        }
+        return value;
+    }
+
+    public static void setValue(String key, String keyValue){
+        try {
+            if (file == null) {
+                properties = new Properties();
+                file = new FileInputStream(SystemHelper.getCurrentDir() + relPropertiesFilePathDefault);
+                properties.load(file);
+                file.close();
+                out = new FileOutputStream(SystemHelper.getCurrentDir() + relPropertiesFilePathDefault);
+            }
+            out = new FileOutputStream(linkFile);
+            LogUtils.info(linkFile);
+            properties.setProperty(key, keyValue);
+            properties.store(out, null);
+            out.close();
+        }catch (Exception e){
+            LogUtils.error("Failed to set value in properties file for key: ("+key+"): "+ e.getMessage());
         }
     }
 }
