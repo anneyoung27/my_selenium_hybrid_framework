@@ -19,6 +19,7 @@ public class PropertiesHelper {
     public static Properties loadAllFiles(){
         LinkedList<String> files = new LinkedList<>();
         files.add("src/main/resources/config.properties");
+        files.add("src/main/java/objects/sweet_shop_locators.properties");
         // files.add("src/test/resources/configs/local.properties");
         // files.add("src/test/resources/configs/production.properties");
 
