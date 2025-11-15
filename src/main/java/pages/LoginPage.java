@@ -24,18 +24,22 @@ public class LoginPage extends CommonPage{
 
     public String getHeaderText(){
         waitForElementPresent(By.xpath(loginHeader));
-        return By.xpath(loginHeader).toString();
+        return getElementText(By.xpath(loginHeader));
     }
 
     public void login(String email, String password){
         setText(By.xpath(emailField), email);
         setText(By.xpath(passwordField), password);
-        clickElement(By.xpath(loginButton));
+    }
+
+    public void clickLoginButton(){
+        waitForElementClickable(By.cssSelector(loginButton));
+        clickElement(By.cssSelector(loginButton));
     }
 
     public String getSuccessfullyLogin(){
         waitForElementClickable(By.xpath(successfullyLogin));
-        return By.xpath(successfullyLogin).toString();
+        return getElementText(By.xpath(successfullyLogin));
     }
 
 }

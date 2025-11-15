@@ -40,7 +40,7 @@ public class BasketPage extends CommonPage{
 
     public String getBasketHeader(){
         waitForElementPresent(By.xpath(basketHeader));
-        return By.xpath(basketHeader).toString();
+        return getElementText(By.xpath(basketHeader));
     }
 
     public void setFirstName(String fName){
@@ -97,7 +97,7 @@ public class BasketPage extends CommonPage{
         String xpath = "//strong[normalize-space()='£" + totalAmount + "']";
 
         waitForElementPresent(By.xpath(xpath));
-        return By.xpath(xpath).toString();
+        return getElementText(By.xpath(xpath));
     }
 
     public void clickCollectDelivery() {

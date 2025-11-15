@@ -1,14 +1,13 @@
 package pages;
 
-import keywords.WebUI;
 import org.openqa.selenium.By;
-
 import java.util.Properties;
 
+import static helper.PropertiesHelper.loadAllFiles;
 import static keywords.WebUI.*;
 
-public class HomePage {
-    Properties setUp;
+public class HomePage extends CommonPage{
+    Properties setUp = loadAllFiles();
 
     public HomePage(){}
 
@@ -18,7 +17,7 @@ public class HomePage {
 
     public String getHomeHeader(){
         waitForElementPresent(By.xpath(homeHeader));
-        return By.xpath(homeHeader).toString();
+        return getElementText(By.xpath(homeHeader));
     }
 
     public int getCountOfPopularProducts(){
@@ -26,20 +25,16 @@ public class HomePage {
         return getListWebElements(By.xpath(popularProductList)).size();
     }
 
-    public String getPopularProductsName(){
-        waitForElementPresent(By.xpath(popularProductList));
-        return By.xpath(popularProductList).toString();
-    }
-
     public void clickAddToBasketButton(int index){
-        String addToBasketButton = "//div[@class='row text-center']/div//a[@data-id='"+index+"']";
+        String addToBasketButton = "//div[@class='row text-center']/div//a[@data-id='"+(index + 1)+"']"; // index for data-id: 1-4
         waitForElementClickable(By.xpath(addToBasketButton));
+        scrollToElement(By.xpath(addToBasketButton), "false");
         clickElement(By.xpath(addToBasketButton));
     }
 
     public int getCountOfAddToBasketButtons(){
         waitForElementPresent(By.xpath(basketCount));
-        return Integer.parseInt(getWebElement(By.xpath(basketCount)).toString());
+        return Integer.parseInt(getElementText(By.xpath(basketCount)));
     }
 
 }

@@ -235,6 +235,12 @@ public class WebUI {
         js.executeScript("arguments[0].scrollIntoView(false);", getWebElement(element));
     }
 
+    /**
+     * @param element
+     * @param position
+     *
+     * position = TOP ("true"), BOTTOM ("false"), CENTER ("{block: 'center'}")
+     */
     public static void scrollToElement(By element, String position) {
         JavascriptExecutor js = (JavascriptExecutor) DriverFactory.getDriver();
         js.executeScript("arguments[0].scrollIntoView(" + position + ");", getWebElement(element));

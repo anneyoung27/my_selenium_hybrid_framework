@@ -71,22 +71,26 @@ public class CaptureHelper extends ScreenRecorder {
         }
     }
 
-    public static void screenshot(String imageName){
+    public static void screenshot(String imageName) {
         SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd HH.mm.ss");
         TakesScreenshot ts = (TakesScreenshot) DriverFactory.getDriver();
         File source = ts.getScreenshotAs(OutputType.FILE);
 
-        File theDir = new File(ConfigData.SCREENSHOT_PATH);
-        if (!theDir.exists()){
-            theDir.mkdirs();
+        File dir = new File(ConfigData.SCREENSHOT_PATH);
+        if (!dir.exists()) {
+            dir.mkdirs();
         }
+
+        File destination = new File(
+                ConfigData.SCREENSHOT_PATH + imageName + "-" + dateFormat.format(new Date()) + ".png"
+        );
 
         try {
-            FileHandler.copy(source, new File(source, ConfigData.SCREENSHOT_PATH + imageName + "-" + dateFormat.format(new Date()) + ".png"));
-            LogUtils.info("Screenshot captured: " + imageName);
-        }catch (IOException e){
+            FileHandler.copy(source, destination);
+            LogUtils.info("Screenshot captured: " + destination.getAbsolutePath());
+        } catch (IOException e) {
             LogUtils.error("Exception while taking screenshot: " + e.getMessage());
         }
-
     }
+
 }

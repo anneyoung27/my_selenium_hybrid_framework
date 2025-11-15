@@ -12,6 +12,7 @@ import reports.ExtentTestManager;
 import utils.LogUtils;
 
 public class TestListeners implements ITestListener {
+
     public String getTestName(ITestResult result){
         return result.getTestName() != null ? result.getTestName() : result.getMethod().getConstructorOrMethod().getName();
     }

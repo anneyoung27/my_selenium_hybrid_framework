@@ -5,6 +5,7 @@ import org.openqa.selenium.By;
 import java.util.Properties;
 
 import static helper.PropertiesHelper.loadAllFiles;
+import static keywords.WebUI.getElementText;
 import static keywords.WebUI.waitForElementPresent;
 
 public class AboutPage extends CommonPage{
@@ -18,6 +19,6 @@ public class AboutPage extends CommonPage{
 
     public String getAboutHeader(){
         waitForElementPresent(By.xpath(aboutHeader));
-        return By.xpath(aboutHeader).toString();
+        return getElementText(By.xpath(aboutHeader));
     }
 }

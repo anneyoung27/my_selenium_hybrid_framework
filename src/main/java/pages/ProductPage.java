@@ -4,10 +4,11 @@ import org.openqa.selenium.By;
 
 import java.util.Properties;
 
+import static helper.PropertiesHelper.loadAllFiles;
 import static keywords.WebUI.*;
 
-public class ProductPage {
-    Properties setUp;
+public class ProductPage extends CommonPage{
+    Properties setUp = loadAllFiles();
 
     public ProductPage(){}
 

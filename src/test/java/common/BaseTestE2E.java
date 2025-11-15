@@ -12,8 +12,7 @@ import pages.CommonPage;
 import utils.LogUtils;
 
 @Listeners(TestListeners.class)
-public class BaseTest extends CommonPage {
-
+public class BaseTestE2E extends CommonPage {
     @BeforeMethod
     @Parameters({"browser"})
     public void createDriver(@Optional("chrome") String browser) {

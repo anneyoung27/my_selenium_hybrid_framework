@@ -2,6 +2,5 @@ package testcases;
 
 import common.BaseTest;
 
-public class LoginTest extends BaseTest {
-
+public class E2ETest extends BaseTest {
 }
