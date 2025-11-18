@@ -36,5 +36,4 @@ public class HomePage extends CommonPage{
         waitForElementPresent(By.xpath(basketCount));
         return Integer.parseInt(getElementText(By.xpath(basketCount)));
     }
-
 }

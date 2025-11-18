@@ -13,8 +13,22 @@ import utils.LogUtils;
 
 @Listeners(TestListeners.class)
 public class BaseTest extends CommonPage {
-
-    @BeforeMethod
+    /**
+     * @BeforeMethod > dieksekusi sebelum setiap @Test method, jika dalam 1 class ada 5 @Test method, maka @BeforeMethod
+     * dipanggil 5x
+     * Kapan digunakan?
+     *   - Setiap test harus mulai dari kondisi baru
+     *   - Setiap test ingin membuka halaman awal
+     *   - Setiap test tidak saling tergantung
+     * @BeforeClass > Dieksekusi sekali saja sebelum seluruh @Test dalam class, walaupun ada 10 @Test method, method
+     * ini tetap hanya dipanggil 1 kali
+     * Kapan digunakan?
+     *    - Jika semua test case di dalam class menggunakan browser yang sama
+     *    - Jika test saling bergantung
+     *    - Jika ingin test berjalan cepat tanpa restart brwoser
+     *    - Cocok untuk end-to-end flow
+     */
+    @BeforeClass // using @BeforeClass to make browser running just 1x for all the @Test cases in class
     @Parameters({"browser"})
     public void createDriver(@Optional("chrome") String browser) {
         WebDriver driver;
@@ -57,7 +71,7 @@ public class BaseTest extends CommonPage {
         return driver;
     }
 
-    @AfterMethod
+    @AfterClass
     public void closeDriver(){
         DriverFactory.quit();
     }

@@ -16,4 +16,14 @@ public class ConfigData {
 
     public static String USER_EMAIL = RandomDataGeneratorUtil.getRandomData(RandomDataGeneratorEnum.USER_EMAIL);
     public static String USER_PASSWORD = RandomDataGeneratorUtil.getRandomData(RandomDataGeneratorEnum.USER_PASSWORD);
+    public static String FIRST_NAME = RandomDataGeneratorUtil.getRandomData(RandomDataGeneratorEnum.FIRST_NAME);
+    public static String LAST_NAME = RandomDataGeneratorUtil.getRandomData(RandomDataGeneratorEnum.LAST_NAME);
+    public static String ADDRESS = RandomDataGeneratorUtil.getRandomData(RandomDataGeneratorEnum.ADDRESS);
+    public static String ADDRESS_2 = RandomDataGeneratorUtil.getRandomData(RandomDataGeneratorEnum.ADDRESS_2);
+    public static String ZIP = RandomDataGeneratorUtil.getRandomData(RandomDataGeneratorEnum.ZIP_CODE);
+    public static String NAME_ON_CARD = RandomDataGeneratorUtil.getRandomData(RandomDataGeneratorEnum.NAME_ON_CARD);
+    public static String CC_NUM = RandomDataGeneratorUtil.getRandomData(RandomDataGeneratorEnum.CREDIT_CARD_NUMBER);
+    public static String EXPIRATION = RandomDataGeneratorUtil.getRandomData(RandomDataGeneratorEnum.EXPIRATION);
+
+    
 }

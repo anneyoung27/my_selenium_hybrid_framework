@@ -8,6 +8,7 @@ import org.testng.annotations.Test;
 import pages.LoginPage;
 
 import static keywords.WebUI.openURL;
+import static keywords.WebUI.verifyEquals;
 
 public class UserLoginTest extends BaseTest {
     LoginPage loginPage;
@@ -31,14 +32,14 @@ public class UserLoginTest extends BaseTest {
         // CaptureHelper.screenshot("Login Page");
 
         String actualHeader = loginPage.getHeaderText();
-        Assert.assertEquals(actualHeader, "Login");
+        verifyEquals(actualHeader, "Login");
 
         loginPage.login(email, password);
 
         loginPage.clickLoginButton();
 
         String actualSuccessfullyLogin = loginPage.getSuccessfullyLogin();
-        Assert.assertEquals(actualSuccessfullyLogin, "Welcome back test@user.com");
+        verifyEquals(actualSuccessfullyLogin, "Welcome back test@user.com");
 
         // CaptureHelper.screenshot("User Profile page");
         //CaptureHelper.stopRecord();

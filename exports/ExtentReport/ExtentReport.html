@@ -35,7 +35,7 @@
 <a href="#"><span class="badge badge-primary">Extent Report for Automation Test</span></a>
 </li>
 <li class="m-r-10">
-<a href="#"><span class="badge badge-primary">Nov 15, 2025 09:08:59 PM</span></a>
+<a href="#"><span class="badge badge-primary">Nov 18, 2025 09:59:02 PM</span></a>
 </li>
 </ul>
 </div>
@@ -79,9 +79,9 @@
           tag=""
           device="">
           <div class="test-detail">
-            <p class="name">addPopularProduct</p>
+            <p class="name">addProductFromProductList</p>
             <p class="text-sm">
-              <span>9:09:00 PM</span> / <span>00:00:19:829</span>
+              <span>9:59:02 PM</span> / <span>00:00:10:528</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -89,10 +89,10 @@
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">addPopularProduct</h5>
-<span class='badge badge-success'>11.15.2025 9:09:00 PM</span>
-<span class='badge badge-danger'>11.15.2025 9:09:20 PM</span>
-<span class='badge badge-default'>00:00:19:829</span>
+<h5 class="test-status text-pass">addProductFromProductList</h5>
+<span class='badge badge-success'>11.18.2025 9:59:02 PM</span>
+<span class='badge badge-danger'>11.18.2025 9:59:13 PM</span>
+<span class='badge badge-default'>00:00:10:528</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
@@ -106,44 +106,205 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>9:09:06 PM</td>
+        <td>9:59:06 PM</td>
         <td>
           🌐 Open URL: https://sweetshop.netlify.app/sweets
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>9:09:10 PM</td>
+        <td>9:59:10 PM</td>
         <td>
-          🟢 Click element: By.xpath: //a[normalize-space()='Sweet Shop']
+          🟢 Click element: By.xpath: //a[normalize-space()='Sweets']
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>9:09:13 PM</td>
+        <td>9:59:10 PM</td>
         <td>
-          ➡️ Get text: Welcome to the sweet shop!
+          ⭐️ Verify equals: By.xpath: //h1[normalize-space()='Browse sweets'] 🟰 Browse sweets
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>9:09:16 PM</td>
+        <td>9:59:10 PM</td>
         <td>
-          🟢 Click element: By.xpath: //div[@class='row text-center']/div//a[@data-id='1']
+          ⭐️ Verify equals: 1 🟰 12
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>9:09:20 PM</td>
+        <td>9:59:13 PM</td>
         <td>
-          ➡️ Get text: 1
+          🟢 Click element: By.xpath: //div[@class='container']//div//a[@data-id='1']
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>9:09:20 PM</td>
+        <td>9:59:13 PM</td>
         <td>
-          addPopularProduct is passed.
+          addProductFromProductList is passed.
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="2"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">checkOutAddedProduct</p>
+            <p class="text-sm">
+              <span>9:59:13 PM</span> / <span>00:00:43:905</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">checkOutAddedProduct</h5>
+<span class='badge badge-success'>11.18.2025 9:59:13 PM</span>
+<span class='badge badge-danger'>11.18.2025 9:59:57 PM</span>
+<span class='badge badge-default'>00:00:43:905</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=2</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:59:16 PM</td>
+        <td>
+          🟢 Click element: By.xpath: //a[@href='/basket']
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:59:19 PM</td>
+        <td>
+          ➡️ Get text: Your Basket
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:59:19 PM</td>
+        <td>
+          ⭐️ Verify equals: Your Basket 🟰 Your Basket
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:59:22 PM</td>
+        <td>
+          🟢 Set text: Walton on element: By.xpath: (//input[@id='name'])[1]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:59:25 PM</td>
+        <td>
+          🟢 Set text: Prosacco on element: By.xpath: (//input[@id='name'])[2]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:59:29 PM</td>
+        <td>
+          🟢 Set text: jane.kutch@yahoo.com on element: By.xpath: //input[@id='email']
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:59:32 PM</td>
+        <td>
+          🟢 Set text: 28737 Bernie Lake, Altonview, FL 15673 on element: By.xpath: //input[@id='address']
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:59:35 PM</td>
+        <td>
+          🟢 Set text: 307 Harris Ridge on element: By.xpath: //input[@id='address2']
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:59:35 PM</td>
+        <td>
+          🟢 Set text: United Kingdom on element: By.xpath: //select[@id='country']
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:59:35 PM</td>
+        <td>
+          🟢 Set text: Swansea on element: By.xpath: //select[@id='city']
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:59:38 PM</td>
+        <td>
+          🟢 Set text: 39653 on element: By.xpath: //input[@id='zip']
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:59:41 PM</td>
+        <td>
+          🟢 Set text: WaltonStoltenberg on element: By.xpath: //input[@id='cc-name']
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:59:44 PM</td>
+        <td>
+          🟢 Set text: 6706754407079728 on element: By.xpath: //input[@id='cc-number']
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:59:47 PM</td>
+        <td>
+          🟢 Set text: 04/31 on element: By.xpath: //input[@id='cc-expiration']
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:59:50 PM</td>
+        <td>
+          🟢 Set text: 8 on element: By.xpath: //input[@id='cc-cvv']
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:59:54 PM</td>
+        <td>
+          🟢 Click element: By.xpath: //button[normalize-space()='Continue to checkout']
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:59:57 PM</td>
+        <td>
+          🟢 Click element: By.xpath: //label[normalize-space()='Collect (FREE)']
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:59:57 PM</td>
+        <td>
+          checkOutAddedProduct is passed.
         </td>
       </tr>
   </tbody>
@@ -165,19 +326,19 @@
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Started</p>
-<h3>Nov 15, 2025 09:08:59 PM</h3>
+<h3>Nov 18, 2025 09:59:02 PM</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Ended</p>
-<h3>Nov 15, 2025 09:09:20 PM</h3>
+<h3>Nov 18, 2025 09:59:57 PM</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0 text-pass">Tests Passed</p>
-<h3>1</h3>
+<h3>2</h3>
 </div></div>
 </div>
 <div class="col-md-3">
@@ -200,7 +361,7 @@
 </div>
 <div class="card-footer">
 <div><small data-tooltip='100%'>
-<b>1</b> tests passed
+<b>2</b> tests passed
 </small>
 </div>
 <div>
@@ -222,7 +383,7 @@
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='100%'><b>6</b> events passed</small></div>
+<div><small data-tooltip='100%'><b>24</b> events passed</small></div>
 <div>
 <small data-tooltip='0%'><b>0</b> events failed,
 <b data-tooltip='%'>0</b> others
@@ -241,7 +402,7 @@
 </div></div>
 <script>
 var timeline = {
-"addPopularProduct":19.829
+"addProductFromProductList":10.528,"checkOutAddedProduct":43.905
 };
 </script>
 <div class="row">
@@ -284,7 +445,7 @@ var timeline = {
 <script>
 var statusGroup = {
 parentCount: 5,
-passParent: 1,
+passParent: 2,
 failParent: 0,
 warningParent: 0,
 skipParent: 0,
@@ -301,7 +462,7 @@ warningGrandChild: 0,
 skipGrandChild: 0,
 infoGrandChild: 0,
 eventsCount: 5,
-passEvents: 6,
+passEvents: 24,
 failEvents: 0,
 warningEvents: 0,
 skipEvents: 0,

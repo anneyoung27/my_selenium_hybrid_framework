@@ -7,6 +7,7 @@ import org.testng.annotations.Test;
 import pages.AboutPage;
 
 import static keywords.WebUI.openURL;
+import static keywords.WebUI.verifyEquals;
 
 public class NavigateAboutPageTest extends BaseTest {
     AboutPage aboutPage;
@@ -20,6 +21,6 @@ public class NavigateAboutPageTest extends BaseTest {
         aboutPage.clickAboutPage();
 
         String actualHeader = aboutPage.getAboutHeader();
-        Assert.assertEquals(actualHeader, "Sweet Shop Project");
+        verifyEquals(actualHeader, "Sweet Shop Project");
     }
 }

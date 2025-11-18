@@ -9,9 +9,11 @@ import pages.HomePage;
 import java.util.Random;
 
 import static keywords.WebUI.openURL;
+import static keywords.WebUI.verifyEquals;
 
 public class AddPopularProductTest extends BaseTest {
     HomePage homePage;
+    Random rdm;
 
     @Test
     public void addPopularProduct(){
@@ -23,19 +25,20 @@ public class AddPopularProductTest extends BaseTest {
         homePage.clickHomePage();
 
         String actualHeader = homePage.getHomeHeader();
-        Assert.assertEquals(actualHeader, "Welcome to the sweet shop!");
+        verifyEquals(actualHeader, "Welcome to the sweet shop!");
 
         int expectedCountOfProduct = 4;
         int actualCountOfProduct = homePage.getCountOfPopularProducts();
-        Assert.assertEquals(actualCountOfProduct, expectedCountOfProduct);
+        verifyEquals(actualCountOfProduct, expectedCountOfProduct);
 
-        Random rdm = new Random();
+        rdm = new Random();
+
         int pickRandomProduct = rdm.nextInt(actualCountOfProduct);
         homePage.clickAddToBasketButton(pickRandomProduct);
 
         int expectedCountOfItemInBasket = 1;
         int actualCountOfItemInBasket = homePage.getCountOfAddToBasketButtons();
-        Assert.assertEquals(actualCountOfItemInBasket, expectedCountOfItemInBasket);
+        verifyEquals(actualCountOfItemInBasket, expectedCountOfItemInBasket);
     }
 
 }

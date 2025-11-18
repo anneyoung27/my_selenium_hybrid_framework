@@ -1,0 +1,218 @@
+[INFO] 16-11-2025 22:08:27 [main] LogUtils - Properties loaded from multiple files: [src/main/resources/config.properties, src/main/java/objects/sweet_shop_locators.properties]
+[INFO] 16-11-2025 22:08:27 [main] LogUtils - ⭐️ ********* START TESTING HybridSeleniumFrameworkParallelTesting *********
+[INFO] 16-11-2025 22:08:27 [main] LogUtils - Properties loaded from multiple files: [src/main/resources/config.properties, src/main/java/objects/sweet_shop_locators.properties]
+[INFO] 16-11-2025 22:08:27 [main] LogUtils - Launching Chrome browser...
+[INFO] 16-11-2025 22:08:33 [main] LogUtils - ➡️ Starting test case addProductFromProductList
+[INFO] 16-11-2025 22:08:38 [main] LogUtils - 🌐 Open URL: https://sweetshop.netlify.app/sweets
+[INFO] 16-11-2025 22:08:38 [main] LogUtils - Properties loaded from multiple files: [src/main/resources/config.properties, src/main/java/objects/sweet_shop_locators.properties]
+[INFO] 16-11-2025 22:08:38 [main] LogUtils - Properties loaded from multiple files: [src/main/resources/config.properties, src/main/java/objects/sweet_shop_locators.properties]
+[INFO] 16-11-2025 22:08:38 [main] LogUtils - Properties loaded from multiple files: [src/main/resources/config.properties, src/main/java/objects/sweet_shop_locators.properties]
+[INFO] 16-11-2025 22:08:38 [main] LogUtils - Properties loaded from multiple files: [src/main/resources/config.properties, src/main/java/objects/sweet_shop_locators.properties]
+[INFO] 16-11-2025 22:08:42 [main] LogUtils - 🟢 Click element: By.xpath: //a[normalize-space()='Sweets']
+[INFO] 16-11-2025 22:08:42 [main] LogUtils - Properties loaded from multiple files: [src/main/resources/config.properties, src/main/java/objects/sweet_shop_locators.properties]
+[INFO] 16-11-2025 22:08:42 [main] LogUtils - Properties loaded from multiple files: [src/main/resources/config.properties, src/main/java/objects/sweet_shop_locators.properties]
+[INFO] 16-11-2025 22:08:42 [main] LogUtils - ⭐️ Verify equals: By.xpath: //h1[normalize-space()='Browse sweets'] 🟰 Browse sweets
+[INFO] 16-11-2025 22:08:42 [main] LogUtils - ⭐️ Verify equals: 1 🟰 12
+[INFO] 16-11-2025 22:08:45 [main] LogUtils - 🟢 Click element: By.xpath: //div[@class='container']//div//a[@data-id='1']
+[INFO] 16-11-2025 22:08:45 [main] LogUtils - ✅ Test case addProductFromProductList passed.
+[INFO] 16-11-2025 22:08:45 [main] LogUtils - Launching Chrome browser...
+[INFO] 16-11-2025 22:08:46 [main] LogUtils - ➡️ Starting test case checkOutAddedProduct
+[INFO] 16-11-2025 22:08:46 [main] LogUtils - Properties loaded from multiple files: [src/main/resources/config.properties, src/main/java/objects/sweet_shop_locators.properties]
+[INFO] 16-11-2025 22:08:46 [main] LogUtils - Properties loaded from multiple files: [src/main/resources/config.properties, src/main/java/objects/sweet_shop_locators.properties]
+[INFO] 16-11-2025 22:08:46 [main] LogUtils - Properties loaded from multiple files: [src/main/resources/config.properties, src/main/java/objects/sweet_shop_locators.properties]
+[INFO] 16-11-2025 22:08:46 [main] LogUtils - Properties loaded from multiple files: [src/main/resources/config.properties, src/main/java/objects/sweet_shop_locators.properties]
+[INFO] 16-11-2025 22:08:46 [main] LogUtils - Timeout waiting for the element ready to click. By.xpath: //a[@href='/basket']
+[ERROR] 16-11-2025 22:08:46 [main] LogUtils - ❌ Test case checkOutAddedProduct failed.
+[ERROR] 16-11-2025 22:08:46 [main] LogUtils - java.lang.AssertionError: Timeout waiting for the element ready to click. By.xpath: //a[@href='/basket']
+[INFO] 16-11-2025 22:08:47 [main] LogUtils - Screenshot captured: D:\CodeProject\Java\MyProject\HybridSeleniumFrameworkParallelTesting\.\exports\screenshots\checkOutAddedProduct-2025-11-16 22.08.47.png
+[INFO] 16-11-2025 22:08:47 [main] LogUtils - ⭐️ ********* END TESTING HybridSeleniumFrameworkParallelTesting *********
+[INFO] 16-11-2025 22:11:10 [main] LogUtils - Properties loaded from multiple files: [src/main/resources/config.properties, src/main/java/objects/sweet_shop_locators.properties]
+[INFO] 16-11-2025 22:11:10 [main] LogUtils - ⭐️ ********* START TESTING HybridSeleniumFrameworkParallelTesting *********
+[INFO] 16-11-2025 22:11:10 [main] LogUtils - Properties loaded from multiple files: [src/main/resources/config.properties, src/main/java/objects/sweet_shop_locators.properties]
+[INFO] 16-11-2025 22:11:10 [main] LogUtils - Launching Chrome browser...
+[INFO] 16-11-2025 22:11:12 [main] LogUtils - ➡️ Starting test case addProductFromProductList
+[INFO] 16-11-2025 22:11:17 [main] LogUtils - 🌐 Open URL: https://sweetshop.netlify.app/sweets
+[INFO] 16-11-2025 22:11:17 [main] LogUtils - Properties loaded from multiple files: [src/main/resources/config.properties, src/main/java/objects/sweet_shop_locators.properties]
+[INFO] 16-11-2025 22:11:17 [main] LogUtils - Properties loaded from multiple files: [src/main/resources/config.properties, src/main/java/objects/sweet_shop_locators.properties]
+[INFO] 16-11-2025 22:11:17 [main] LogUtils - Properties loaded from multiple files: [src/main/resources/config.properties, src/main/java/objects/sweet_shop_locators.properties]
+[INFO] 16-11-2025 22:11:17 [main] LogUtils - Properties loaded from multiple files: [src/main/resources/config.properties, src/main/java/objects/sweet_shop_locators.properties]
+[INFO] 16-11-2025 22:11:21 [main] LogUtils - 🟢 Click element: By.xpath: //a[normalize-space()='Sweets']
+[INFO] 16-11-2025 22:11:21 [main] LogUtils - Properties loaded from multiple files: [src/main/resources/config.properties, src/main/java/objects/sweet_shop_locators.properties]
+[INFO] 16-11-2025 22:11:21 [main] LogUtils - Properties loaded from multiple files: [src/main/resources/config.properties, src/main/java/objects/sweet_shop_locators.properties]
+[INFO] 16-11-2025 22:11:21 [main] LogUtils - ⭐️ Verify equals: By.xpath: //h1[normalize-space()='Browse sweets'] 🟰 Browse sweets
+[INFO] 16-11-2025 22:11:21 [main] LogUtils - ⭐️ Verify equals: 1 🟰 12
+[INFO] 16-11-2025 22:11:25 [main] LogUtils - 🟢 Click element: By.xpath: //div[@class='container']//div//a[@data-id='1']
+[INFO] 16-11-2025 22:11:25 [main] LogUtils - ✅ Test case addProductFromProductList passed.
+[INFO] 16-11-2025 22:11:25 [main] LogUtils - Launching Chrome browser...
+[INFO] 16-11-2025 22:11:26 [main] LogUtils - ➡️ Starting test case checkOutAddedProduct
+[INFO] 16-11-2025 22:11:29 [main] LogUtils - 🌐 Open URL: https://sweetshop.netlify.app/sweets
+[INFO] 16-11-2025 22:11:29 [main] LogUtils - Properties loaded from multiple files: [src/main/resources/config.properties, src/main/java/objects/sweet_shop_locators.properties]
+[INFO] 16-11-2025 22:11:29 [main] LogUtils - Properties loaded from multiple files: [src/main/resources/config.properties, src/main/java/objects/sweet_shop_locators.properties]
+[INFO] 16-11-2025 22:11:29 [main] LogUtils - Properties loaded from multiple files: [src/main/resources/config.properties, src/main/java/objects/sweet_shop_locators.properties]
+[INFO] 16-11-2025 22:11:29 [main] LogUtils - Properties loaded from multiple files: [src/main/resources/config.properties, src/main/java/objects/sweet_shop_locators.properties]
+[INFO] 16-11-2025 22:11:33 [main] LogUtils - 🟢 Click element: By.xpath: //a[@href='/basket']
+[INFO] 16-11-2025 22:11:33 [main] LogUtils - Properties loaded from multiple files: [src/main/resources/config.properties, src/main/java/objects/sweet_shop_locators.properties]
+[INFO] 16-11-2025 22:11:33 [main] LogUtils - Properties loaded from multiple files: [src/main/resources/config.properties, src/main/java/objects/sweet_shop_locators.properties]
+[INFO] 16-11-2025 22:11:36 [main] LogUtils - ➡️ Get text: Your Basket
+[INFO] 16-11-2025 22:11:36 [main] LogUtils - ⭐️ Verify equals: Your Basket 🟰 Your Basket
+[INFO] 16-11-2025 22:11:39 [main] LogUtils - 🟢 Set text: Perry on element: By.xpath: (//input[@id='name'])[1]
+[INFO] 16-11-2025 22:11:42 [main] LogUtils - 🟢 Set text: Abbott on element: By.xpath: (//input[@id='name'])[2]
+[INFO] 16-11-2025 22:11:45 [main] LogUtils - 🟢 Set text: adolfo.mann@hotmail.com on element: By.xpath: //input[@id='email']
+[INFO] 16-11-2025 22:11:49 [main] LogUtils - 🟢 Set text: 3250 Devon Forges, Dickensbury, MN 02669 on element: By.xpath: //input[@id='address']
+[INFO] 16-11-2025 22:11:52 [main] LogUtils - 🟢 Set text: 36483 Martin Summit on element: By.xpath: //input[@id='address2']
+[INFO] 16-11-2025 22:11:52 [main] LogUtils - 🟢 Select element: By.xpath: //select[@id='country']
+[INFO] 16-11-2025 22:11:52 [main] LogUtils - 🟢 Select element: By.xpath: //select[@id='city']
+[INFO] 16-11-2025 22:11:55 [main] LogUtils - 🟢 Set text: 62239 on element: By.xpath: //input[@id='zip']
+[INFO] 16-11-2025 22:11:58 [main] LogUtils - 🟢 Set text: PerryMonahan on element: By.xpath: //input[@id='cc-name']
+[INFO] 16-11-2025 22:12:01 [main] LogUtils - 🟢 Set text: 6007222171534159 on element: By.xpath: //input[@id='cc-number']
+[INFO] 16-11-2025 22:12:05 [main] LogUtils - 🟢 Set text: 03/34 on element: By.xpath: //input[@id='cc-expiration']
+[INFO] 16-11-2025 22:12:08 [main] LogUtils - 🟢 Set text: 8 on element: By.xpath: //input[@id='cc-cvv']
+[INFO] 16-11-2025 22:12:11 [main] LogUtils - 🟢 Click element: By.xpath: //button[normalize-space()='Continue to checkout']
+[INFO] 16-11-2025 22:12:14 [main] LogUtils - 🟢 Click element: By.xpath: //label[normalize-space()='Collect (FREE)']
+[INFO] 16-11-2025 22:12:14 [main] LogUtils - ✅ Test case checkOutAddedProduct passed.
+[INFO] 16-11-2025 22:12:14 [main] LogUtils - ⭐️ ********* END TESTING HybridSeleniumFrameworkParallelTesting *********
+[INFO] 18-11-2025 21:07:53 [main] LogUtils - Properties loaded from multiple files: [src/main/resources/config.properties, src/main/java/objects/sweet_shop_locators.properties]
+[INFO] 18-11-2025 21:07:53 [main] LogUtils - ⭐️ ********* START TESTING HybridSeleniumFrameworkParallelTesting *********
+[INFO] 18-11-2025 21:07:53 [main] LogUtils - Properties loaded from multiple files: [src/main/resources/config.properties, src/main/java/objects/sweet_shop_locators.properties]
+[INFO] 18-11-2025 21:07:53 [main] LogUtils - Launching Chrome browser...
+[INFO] 18-11-2025 21:07:57 [main] LogUtils - ➡️ Starting test case addProductFromProductList
+[INFO] 18-11-2025 21:08:02 [main] LogUtils - 🌐 Open URL: https://sweetshop.netlify.app/sweets
+[INFO] 18-11-2025 21:08:02 [main] LogUtils - Properties loaded from multiple files: [src/main/resources/config.properties, src/main/java/objects/sweet_shop_locators.properties]
+[INFO] 18-11-2025 21:08:02 [main] LogUtils - Properties loaded from multiple files: [src/main/resources/config.properties, src/main/java/objects/sweet_shop_locators.properties]
+[INFO] 18-11-2025 21:08:02 [main] LogUtils - Properties loaded from multiple files: [src/main/resources/config.properties, src/main/java/objects/sweet_shop_locators.properties]
+[INFO] 18-11-2025 21:08:02 [main] LogUtils - Properties loaded from multiple files: [src/main/resources/config.properties, src/main/java/objects/sweet_shop_locators.properties]
+[INFO] 18-11-2025 21:08:05 [main] LogUtils - 🟢 Click element: By.xpath: //a[normalize-space()='Sweets']
+[INFO] 18-11-2025 21:08:05 [main] LogUtils - Properties loaded from multiple files: [src/main/resources/config.properties, src/main/java/objects/sweet_shop_locators.properties]
+[INFO] 18-11-2025 21:08:05 [main] LogUtils - Properties loaded from multiple files: [src/main/resources/config.properties, src/main/java/objects/sweet_shop_locators.properties]
+[INFO] 18-11-2025 21:08:05 [main] LogUtils - ⭐️ Verify equals: By.xpath: //h1[normalize-space()='Browse sweets'] 🟰 Browse sweets
+[INFO] 18-11-2025 21:08:05 [main] LogUtils - ⭐️ Verify equals: 1 🟰 12
+[INFO] 18-11-2025 21:08:08 [main] LogUtils - 🟢 Click element: By.xpath: //div[@class='container']//div//a[@data-id='1']
+[INFO] 18-11-2025 21:08:08 [main] LogUtils - ✅ Test case addProductFromProductList passed.
+[INFO] 18-11-2025 21:08:08 [main] LogUtils - Launching Chrome browser...
+[INFO] 18-11-2025 21:08:09 [main] LogUtils - ➡️ Starting test case checkOutAddedProduct
+[INFO] 18-11-2025 21:08:13 [main] LogUtils - 🌐 Open URL: https://sweetshop.netlify.app/sweets
+[INFO] 18-11-2025 21:08:13 [main] LogUtils - Properties loaded from multiple files: [src/main/resources/config.properties, src/main/java/objects/sweet_shop_locators.properties]
+[INFO] 18-11-2025 21:08:13 [main] LogUtils - Properties loaded from multiple files: [src/main/resources/config.properties, src/main/java/objects/sweet_shop_locators.properties]
+[INFO] 18-11-2025 21:08:13 [main] LogUtils - Properties loaded from multiple files: [src/main/resources/config.properties, src/main/java/objects/sweet_shop_locators.properties]
+[INFO] 18-11-2025 21:08:13 [main] LogUtils - Properties loaded from multiple files: [src/main/resources/config.properties, src/main/java/objects/sweet_shop_locators.properties]
+[INFO] 18-11-2025 21:08:16 [main] LogUtils - 🟢 Click element: By.xpath: //a[@href='/basket']
+[INFO] 18-11-2025 21:08:16 [main] LogUtils - Properties loaded from multiple files: [src/main/resources/config.properties, src/main/java/objects/sweet_shop_locators.properties]
+[INFO] 18-11-2025 21:08:16 [main] LogUtils - Properties loaded from multiple files: [src/main/resources/config.properties, src/main/java/objects/sweet_shop_locators.properties]
+[INFO] 18-11-2025 21:08:19 [main] LogUtils - ➡️ Get text: Your Basket
+[INFO] 18-11-2025 21:08:19 [main] LogUtils - ⭐️ Verify equals: Your Basket 🟰 Your Basket
+[INFO] 18-11-2025 21:08:19 [main] LogUtils - Basket contains the expected number of items: 0
+[INFO] 18-11-2025 21:08:23 [main] LogUtils - 🟢 Set text: Margareta on element: By.xpath: (//input[@id='name'])[1]
+[INFO] 18-11-2025 21:08:26 [main] LogUtils - 🟢 Set text: Lebsack on element: By.xpath: (//input[@id='name'])[2]
+[INFO] 18-11-2025 21:08:29 [main] LogUtils - 🟢 Set text: irmgard.roob@gmail.com on element: By.xpath: //input[@id='email']
+[INFO] 18-11-2025 21:08:32 [main] LogUtils - 🟢 Set text: 90400 Jerrica Bridge, South Augustusstad, MS 20184 on element: By.xpath: //input[@id='address']
+[INFO] 18-11-2025 21:08:35 [main] LogUtils - 🟢 Set text: 43871 Zemlak Alley on element: By.xpath: //input[@id='address2']
+[INFO] 18-11-2025 21:08:35 [main] LogUtils - 🟢 Set text: United Kingdom on element: By.xpath: //select[@id='country']
+[INFO] 18-11-2025 21:08:35 [main] LogUtils - 🟢 Set text: Swansea on element: By.xpath: //select[@id='city']
+[INFO] 18-11-2025 21:08:38 [main] LogUtils - 🟢 Set text: 57157 on element: By.xpath: //input[@id='zip']
+[INFO] 18-11-2025 21:08:41 [main] LogUtils - 🟢 Set text: MargaretaDaniel on element: By.xpath: //input[@id='cc-name']
+[INFO] 18-11-2025 21:08:44 [main] LogUtils - 🟢 Set text: 4199351637796574 on element: By.xpath: //input[@id='cc-number']
+[INFO] 18-11-2025 21:08:48 [main] LogUtils - 🟢 Set text: 03/25 on element: By.xpath: //input[@id='cc-expiration']
+[INFO] 18-11-2025 21:08:51 [main] LogUtils - 🟢 Set text: 8 on element: By.xpath: //input[@id='cc-cvv']
+[INFO] 18-11-2025 21:08:54 [main] LogUtils - 🟢 Click element: By.xpath: //button[normalize-space()='Continue to checkout']
+[INFO] 18-11-2025 21:08:57 [main] LogUtils - 🟢 Click element: By.xpath: //label[normalize-space()='Collect (FREE)']
+[INFO] 18-11-2025 21:08:57 [main] LogUtils - ✅ Test case checkOutAddedProduct passed.
+[INFO] 18-11-2025 21:08:57 [main] LogUtils - ⭐️ ********* END TESTING HybridSeleniumFrameworkParallelTesting *********
+[INFO] 18-11-2025 21:52:10 [main] LogUtils - Properties loaded from multiple files: [src/main/resources/config.properties, src/main/java/objects/sweet_shop_locators.properties]
+[INFO] 18-11-2025 21:52:10 [main] LogUtils - ⭐️ ********* START TESTING HybridSeleniumFrameworkParallelTesting *********
+[INFO] 18-11-2025 21:52:10 [main] LogUtils - Properties loaded from multiple files: [src/main/resources/config.properties, src/main/java/objects/sweet_shop_locators.properties]
+[INFO] 18-11-2025 21:52:10 [main] LogUtils - Launching Chrome browser...
+[INFO] 18-11-2025 21:52:11 [main] LogUtils - ➡️ Starting test case addProductFromProductList
+[INFO] 18-11-2025 21:52:16 [main] LogUtils - 🌐 Open URL: https://sweetshop.netlify.app/sweets
+[INFO] 18-11-2025 21:52:16 [main] LogUtils - Properties loaded from multiple files: [src/main/resources/config.properties, src/main/java/objects/sweet_shop_locators.properties]
+[INFO] 18-11-2025 21:52:16 [main] LogUtils - Properties loaded from multiple files: [src/main/resources/config.properties, src/main/java/objects/sweet_shop_locators.properties]
+[INFO] 18-11-2025 21:52:16 [main] LogUtils - Properties loaded from multiple files: [src/main/resources/config.properties, src/main/java/objects/sweet_shop_locators.properties]
+[INFO] 18-11-2025 21:52:16 [main] LogUtils - Properties loaded from multiple files: [src/main/resources/config.properties, src/main/java/objects/sweet_shop_locators.properties]
+[INFO] 18-11-2025 21:52:19 [main] LogUtils - 🟢 Click element: By.xpath: //a[normalize-space()='Sweets']
+[INFO] 18-11-2025 21:52:19 [main] LogUtils - Properties loaded from multiple files: [src/main/resources/config.properties, src/main/java/objects/sweet_shop_locators.properties]
+[INFO] 18-11-2025 21:52:19 [main] LogUtils - Properties loaded from multiple files: [src/main/resources/config.properties, src/main/java/objects/sweet_shop_locators.properties]
+[INFO] 18-11-2025 21:52:19 [main] LogUtils - ⭐️ Verify equals: By.xpath: //h1[normalize-space()='Browse sweets'] 🟰 Browse sweets
+[INFO] 18-11-2025 21:52:19 [main] LogUtils - ⭐️ Verify equals: 1 🟰 12
+[INFO] 18-11-2025 21:52:22 [main] LogUtils - 🟢 Click element: By.xpath: //div[@class='container']//div//a[@data-id='1']
+[INFO] 18-11-2025 21:52:22 [main] LogUtils - ✅ Test case addProductFromProductList passed.
+[INFO] 18-11-2025 21:52:22 [main] LogUtils - Launching Chrome browser...
+[INFO] 18-11-2025 21:52:23 [main] LogUtils - ➡️ Starting test case checkOutAddedProduct
+[INFO] 18-11-2025 21:52:23 [main] LogUtils - Properties loaded from multiple files: [src/main/resources/config.properties, src/main/java/objects/sweet_shop_locators.properties]
+[INFO] 18-11-2025 21:52:23 [main] LogUtils - Properties loaded from multiple files: [src/main/resources/config.properties, src/main/java/objects/sweet_shop_locators.properties]
+[INFO] 18-11-2025 21:52:23 [main] LogUtils - Properties loaded from multiple files: [src/main/resources/config.properties, src/main/java/objects/sweet_shop_locators.properties]
+[INFO] 18-11-2025 21:52:23 [main] LogUtils - Properties loaded from multiple files: [src/main/resources/config.properties, src/main/java/objects/sweet_shop_locators.properties]
+[INFO] 18-11-2025 21:52:23 [main] LogUtils - Timeout waiting for the element ready to click. By.xpath: //a[@href='/basket']
+[ERROR] 18-11-2025 21:52:23 [main] LogUtils - ❌ Test case checkOutAddedProduct failed.
+[ERROR] 18-11-2025 21:52:23 [main] LogUtils - java.lang.AssertionError: Timeout waiting for the element ready to click. By.xpath: //a[@href='/basket']
+[INFO] 18-11-2025 21:52:23 [main] LogUtils - Screenshot captured: D:\CodeProject\Java\MyProject\HybridSeleniumFrameworkParallelTesting\.\exports\screenshots\checkOutAddedProduct-2025-11-18 21.52.23.png
+[INFO] 18-11-2025 21:52:24 [main] LogUtils - ⭐️ ********* END TESTING HybridSeleniumFrameworkParallelTesting *********
+[INFO] 18-11-2025 21:58:26 [main] LogUtils - Properties loaded from multiple files: [src/main/resources/config.properties, src/main/java/objects/sweet_shop_locators.properties]
+[INFO] 18-11-2025 21:58:26 [main] LogUtils - ⭐️ ********* START TESTING HybridSeleniumFrameworkParallelTesting *********
+[INFO] 18-11-2025 21:58:26 [main] LogUtils - Properties loaded from multiple files: [src/main/resources/config.properties, src/main/java/objects/sweet_shop_locators.properties]
+[INFO] 18-11-2025 21:58:26 [main] LogUtils - Launching Chrome browser...
+[INFO] 18-11-2025 21:58:27 [main] LogUtils - ➡️ Starting test case addProductFromProductList
+[INFO] 18-11-2025 21:58:32 [main] LogUtils - 🌐 Open URL: https://sweetshop.netlify.app/sweets
+[INFO] 18-11-2025 21:58:32 [main] LogUtils - Properties loaded from multiple files: [src/main/resources/config.properties, src/main/java/objects/sweet_shop_locators.properties]
+[INFO] 18-11-2025 21:58:32 [main] LogUtils - Properties loaded from multiple files: [src/main/resources/config.properties, src/main/java/objects/sweet_shop_locators.properties]
+[INFO] 18-11-2025 21:58:32 [main] LogUtils - Properties loaded from multiple files: [src/main/resources/config.properties, src/main/java/objects/sweet_shop_locators.properties]
+[INFO] 18-11-2025 21:58:32 [main] LogUtils - Properties loaded from multiple files: [src/main/resources/config.properties, src/main/java/objects/sweet_shop_locators.properties]
+[INFO] 18-11-2025 21:58:35 [main] LogUtils - 🟢 Click element: By.xpath: //a[normalize-space()='Sweets']
+[INFO] 18-11-2025 21:58:35 [main] LogUtils - Properties loaded from multiple files: [src/main/resources/config.properties, src/main/java/objects/sweet_shop_locators.properties]
+[INFO] 18-11-2025 21:58:35 [main] LogUtils - Properties loaded from multiple files: [src/main/resources/config.properties, src/main/java/objects/sweet_shop_locators.properties]
+[INFO] 18-11-2025 21:58:35 [main] LogUtils - ⭐️ Verify equals: By.xpath: //h1[normalize-space()='Browse sweets'] 🟰 Browse sweets
+[INFO] 18-11-2025 21:58:35 [main] LogUtils - ⭐️ Verify equals: 1 🟰 12
+[INFO] 18-11-2025 21:58:38 [main] LogUtils - 🟢 Click element: By.xpath: //div[@class='container']//div//a[@data-id='1']
+[INFO] 18-11-2025 21:58:38 [main] LogUtils - ✅ Test case addProductFromProductList passed.
+[INFO] 18-11-2025 21:58:39 [main] LogUtils - ➡️ Starting test case checkOutAddedProduct
+[INFO] 18-11-2025 21:58:39 [main] LogUtils - Properties loaded from multiple files: [src/main/resources/config.properties, src/main/java/objects/sweet_shop_locators.properties]
+[INFO] 18-11-2025 21:58:39 [main] LogUtils - Properties loaded from multiple files: [src/main/resources/config.properties, src/main/java/objects/sweet_shop_locators.properties]
+[INFO] 18-11-2025 21:58:39 [main] LogUtils - Properties loaded from multiple files: [src/main/resources/config.properties, src/main/java/objects/sweet_shop_locators.properties]
+[INFO] 18-11-2025 21:58:39 [main] LogUtils - Properties loaded from multiple files: [src/main/resources/config.properties, src/main/java/objects/sweet_shop_locators.properties]
+[ERROR] 18-11-2025 21:58:39 [main] LogUtils - ❌ Test case checkOutAddedProduct failed.
+[ERROR] 18-11-2025 21:58:39 [main] LogUtils - java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.JavascriptExecutor.executeScript(String, Object[])" because "js" is null
+[ERROR] 18-11-2025 21:58:39 [main] LogUtils - ❌ Test case checkOutAddedProduct failed.
+[ERROR] 18-11-2025 21:58:39 [main] LogUtils - java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "ts" is null
+[INFO] 18-11-2025 21:58:39 [main] LogUtils - ⭐️ ********* END TESTING HybridSeleniumFrameworkParallelTesting *********
+[INFO] 18-11-2025 21:59:01 [main] LogUtils - Properties loaded from multiple files: [src/main/resources/config.properties, src/main/java/objects/sweet_shop_locators.properties]
+[INFO] 18-11-2025 21:59:01 [main] LogUtils - ⭐️ ********* START TESTING HybridSeleniumFrameworkParallelTesting *********
+[INFO] 18-11-2025 21:59:01 [main] LogUtils - Properties loaded from multiple files: [src/main/resources/config.properties, src/main/java/objects/sweet_shop_locators.properties]
+[INFO] 18-11-2025 21:59:01 [main] LogUtils - Launching Chrome browser...
+[INFO] 18-11-2025 21:59:02 [main] LogUtils - ➡️ Starting test case addProductFromProductList
+[INFO] 18-11-2025 21:59:06 [main] LogUtils - 🌐 Open URL: https://sweetshop.netlify.app/sweets
+[INFO] 18-11-2025 21:59:06 [main] LogUtils - Properties loaded from multiple files: [src/main/resources/config.properties, src/main/java/objects/sweet_shop_locators.properties]
+[INFO] 18-11-2025 21:59:06 [main] LogUtils - Properties loaded from multiple files: [src/main/resources/config.properties, src/main/java/objects/sweet_shop_locators.properties]
+[INFO] 18-11-2025 21:59:06 [main] LogUtils - Properties loaded from multiple files: [src/main/resources/config.properties, src/main/java/objects/sweet_shop_locators.properties]
+[INFO] 18-11-2025 21:59:06 [main] LogUtils - Properties loaded from multiple files: [src/main/resources/config.properties, src/main/java/objects/sweet_shop_locators.properties]
+[INFO] 18-11-2025 21:59:10 [main] LogUtils - 🟢 Click element: By.xpath: //a[normalize-space()='Sweets']
+[INFO] 18-11-2025 21:59:10 [main] LogUtils - Properties loaded from multiple files: [src/main/resources/config.properties, src/main/java/objects/sweet_shop_locators.properties]
+[INFO] 18-11-2025 21:59:10 [main] LogUtils - Properties loaded from multiple files: [src/main/resources/config.properties, src/main/java/objects/sweet_shop_locators.properties]
+[INFO] 18-11-2025 21:59:10 [main] LogUtils - ⭐️ Verify equals: By.xpath: //h1[normalize-space()='Browse sweets'] 🟰 Browse sweets
+[INFO] 18-11-2025 21:59:10 [main] LogUtils - ⭐️ Verify equals: 1 🟰 12
+[INFO] 18-11-2025 21:59:13 [main] LogUtils - 🟢 Click element: By.xpath: //div[@class='container']//div//a[@data-id='1']
+[INFO] 18-11-2025 21:59:13 [main] LogUtils - ✅ Test case addProductFromProductList passed.
+[INFO] 18-11-2025 21:59:13 [main] LogUtils - ➡️ Starting test case checkOutAddedProduct
+[INFO] 18-11-2025 21:59:13 [main] LogUtils - Properties loaded from multiple files: [src/main/resources/config.properties, src/main/java/objects/sweet_shop_locators.properties]
+[INFO] 18-11-2025 21:59:13 [main] LogUtils - Properties loaded from multiple files: [src/main/resources/config.properties, src/main/java/objects/sweet_shop_locators.properties]
+[INFO] 18-11-2025 21:59:13 [main] LogUtils - Properties loaded from multiple files: [src/main/resources/config.properties, src/main/java/objects/sweet_shop_locators.properties]
+[INFO] 18-11-2025 21:59:13 [main] LogUtils - Properties loaded from multiple files: [src/main/resources/config.properties, src/main/java/objects/sweet_shop_locators.properties]
+[INFO] 18-11-2025 21:59:16 [main] LogUtils - 🟢 Click element: By.xpath: //a[@href='/basket']
+[INFO] 18-11-2025 21:59:16 [main] LogUtils - Properties loaded from multiple files: [src/main/resources/config.properties, src/main/java/objects/sweet_shop_locators.properties]
+[INFO] 18-11-2025 21:59:16 [main] LogUtils - Properties loaded from multiple files: [src/main/resources/config.properties, src/main/java/objects/sweet_shop_locators.properties]
+[INFO] 18-11-2025 21:59:19 [main] LogUtils - ➡️ Get text: Your Basket
+[INFO] 18-11-2025 21:59:19 [main] LogUtils - ⭐️ Verify equals: Your Basket 🟰 Your Basket
+[ERROR] 18-11-2025 21:59:19 [main] LogUtils - Basket item count mismatch. Expected: 0, Actual: 1
+[INFO] 18-11-2025 21:59:22 [main] LogUtils - 🟢 Set text: Walton on element: By.xpath: (//input[@id='name'])[1]
+[INFO] 18-11-2025 21:59:25 [main] LogUtils - 🟢 Set text: Prosacco on element: By.xpath: (//input[@id='name'])[2]
+[INFO] 18-11-2025 21:59:29 [main] LogUtils - 🟢 Set text: jane.kutch@yahoo.com on element: By.xpath: //input[@id='email']
+[INFO] 18-11-2025 21:59:32 [main] LogUtils - 🟢 Set text: 28737 Bernie Lake, Altonview, FL 15673 on element: By.xpath: //input[@id='address']
+[INFO] 18-11-2025 21:59:35 [main] LogUtils - 🟢 Set text: 307 Harris Ridge on element: By.xpath: //input[@id='address2']
+[INFO] 18-11-2025 21:59:35 [main] LogUtils - 🟢 Set text: United Kingdom on element: By.xpath: //select[@id='country']
+[INFO] 18-11-2025 21:59:35 [main] LogUtils - 🟢 Set text: Swansea on element: By.xpath: //select[@id='city']
+[INFO] 18-11-2025 21:59:38 [main] LogUtils - 🟢 Set text: 39653 on element: By.xpath: //input[@id='zip']
+[INFO] 18-11-2025 21:59:41 [main] LogUtils - 🟢 Set text: WaltonStoltenberg on element: By.xpath: //input[@id='cc-name']
+[INFO] 18-11-2025 21:59:44 [main] LogUtils - 🟢 Set text: 6706754407079728 on element: By.xpath: //input[@id='cc-number']
+[INFO] 18-11-2025 21:59:47 [main] LogUtils - 🟢 Set text: 04/31 on element: By.xpath: //input[@id='cc-expiration']
+[INFO] 18-11-2025 21:59:50 [main] LogUtils - 🟢 Set text: 8 on element: By.xpath: //input[@id='cc-cvv']
+[INFO] 18-11-2025 21:59:54 [main] LogUtils - 🟢 Click element: By.xpath: //button[normalize-space()='Continue to checkout']
+[INFO] 18-11-2025 21:59:57 [main] LogUtils - 🟢 Click element: By.xpath: //label[normalize-space()='Collect (FREE)']
+[INFO] 18-11-2025 21:59:57 [main] LogUtils - ✅ Test case checkOutAddedProduct passed.
+[INFO] 18-11-2025 21:59:57 [main] LogUtils - ⭐️ ********* END TESTING HybridSeleniumFrameworkParallelTesting *********

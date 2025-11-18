@@ -11,6 +11,7 @@ import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import reports.AllureManager;
@@ -22,6 +23,7 @@ import java.awt.datatransfer.StringSelection;
 import java.awt.event.KeyEvent;
 import java.time.Duration;
 import java.util.List;
+import java.util.NoSuchElementException;
 
 public class WebUI {
     private static int EXPLICIT_WAIT_TIMEOUT = ConfigData.EXPLICIT_WAIT_TIMEOUT;
@@ -371,6 +373,19 @@ public class WebUI {
         }
     }
 
+    public static void handleDropdown(By by, String value){
+        WebElement element = getWebElement(by);
+        Select select = new Select(element);
+
+        try {
+            select.selectByVisibleText(value);
+        }catch (NoSuchElementException e){
+            select.selectByValue(value);
+        }
+
+        LogUtils.info("\uD83D\uDFE2 Set text: " + value + " on element: " + by);
+        ExtentTestManager.logMessage(Status.PASS, "\uD83D\uDFE2 Set text: " + value + " on element: "+ by);
+    }
     /*
      * @param by Pass in the element object in By format
      * @return Colour the border of the Element on the website red

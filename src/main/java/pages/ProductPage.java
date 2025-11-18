@@ -26,19 +26,11 @@ public class ProductPage extends CommonPage{
         return getListWebElements(By.xpath(productHeader)).size();
     }
 
-    public String getProductName(int index){
-        waitForElementPresent(By.xpath(productNameList));
-        return getListWebElements(By.xpath(productNameList)).get(index).getText();
-    }
-
-    public void clickAddToBasket(int index){
-        String addToBasketButton = "//div[@class='container']//div//a[@data-id='"+index+"']";
+    public void clickAddToBasketButton(int index){
+        String addToBasketButton = "//div[@class='container']//div//a[@data-id='"+(index + 1)+"']"; // index for data-id: 1-4
         waitForElementClickable(By.xpath(addToBasketButton));
+
+        scrollToElement(By.xpath(addToBasketButton), "false");
         clickElement(By.xpath(addToBasketButton));
     }
-
-
-
-
-
 }

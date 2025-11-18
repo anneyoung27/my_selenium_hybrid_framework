@@ -64,11 +64,11 @@ public class BasketPage extends CommonPage{
     }
 
     public void setCountry(String cName){
-        setText(By.xpath(country), cName);
+        handleDropdown(By.xpath(country), cName);
     }
 
     public void setCity(String cName){
-        setText(By.xpath(city), cName);
+        handleDropdown(By.xpath(city), cName);
     }
 
     public void setZip(String zip){
@@ -151,22 +151,5 @@ public class BasketPage extends CommonPage{
             LogUtils.error("Basket item count mismatch. Expected: " + expectedCount + ", Actual: " + actualCount);
         }
     }
-
-    public double verifyPricePerItemInBasket() {
-        List<WebElement> priceElements = getListWebElements(
-                By.xpath(pricePerItemInBasket)
-        );
-
-        double priceSum = 0.0;
-        for (WebElement priceElement : priceElements) {
-            String actualPrice = priceElement.getText().trim();
-            actualPrice = actualPrice.replaceAll("[^0-9.]", "");
-            if (!actualPrice.isEmpty()) {
-                priceSum += Double.parseDouble(actualPrice);
-            }
-        }
-        return priceSum;
-    }
-
 
 }
