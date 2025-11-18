@@ -13,7 +13,7 @@ import utils.LogUtils;
 
 @Listeners(TestListeners.class)
 public class BaseTestE2E extends CommonPage {
-    @BeforeMethod
+    @BeforeClass
     @Parameters({"browser"})
     public void createDriver(@Optional("chrome") String browser) {
         WebDriver driver;
@@ -56,7 +56,7 @@ public class BaseTestE2E extends CommonPage {
         return driver;
     }
 
-    @AfterMethod
+    @AfterClass
     public void closeDriver(){
         DriverFactory.quit();
     }

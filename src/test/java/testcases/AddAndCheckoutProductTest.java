@@ -78,7 +78,6 @@ public class AddAndCheckoutProductTest extends BaseTest {
         basketPage.clickContinueToCheckout();
 
         basketPage.clickCollectDelivery();
-
     }
 
 }
