@@ -11,8 +11,13 @@ import org.testng.annotations.*;
 import pages.CommonPage;
 import utils.LogUtils;
 
+import java.util.Properties;
+
+import static helper.PropertiesHelper.loadAllFiles;
+
 @Listeners(TestListeners.class)
 public class BaseTest extends CommonPage {
+    Properties setUp = loadAllFiles();
     /**
      * @BeforeMethod > dieksekusi sebelum setiap @Test method, jika dalam 1 class ada 5 @Test method, maka @BeforeMethod
      * dipanggil 5x
@@ -28,9 +33,9 @@ public class BaseTest extends CommonPage {
      *    - Jika ingin test berjalan cepat tanpa restart brwoser
      *    - Cocok untuk end-to-end flow
      */
-    @BeforeClass // using @BeforeClass to make browser running just 1x for all the @Test cases in class
-    @Parameters({"browser"})
-    public void createDriver(@Optional("chrome") String browser) {
+    @BeforeMethod // using @BeforeClass to make browser running just 1x for all the @Test cases in class
+    @Parameters({"browser", "url"})
+    public void createDriver(@Optional("chrome") String browser, @Optional("url") String url) {
         WebDriver driver;
         if (PropertiesHelper.getValue("BROWSER") != null && !PropertiesHelper.getValue("BROWSER").isEmpty()){
             driver = setUpDriver(PropertiesHelper.getValue("BROWSER"));
@@ -38,6 +43,17 @@ public class BaseTest extends CommonPage {
             driver = setUpDriver(browser);
         }
         DriverFactory.setDriver(driver);
+
+        String targetUrl = setUp.getProperty("URL");
+        if (targetUrl == null || targetUrl.trim().isEmpty()) {
+            targetUrl = url;
+        }
+
+        if (targetUrl != null && !targetUrl.trim().isEmpty()) {
+            driver.get(targetUrl);
+        } else {
+            LogUtils.error("⚠️ WARNING: No URL provided in config or TestNG parameters.");
+        }
     }
 
     public WebDriver setUpDriver(String browser) {

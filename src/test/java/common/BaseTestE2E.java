@@ -11,11 +11,17 @@ import org.testng.annotations.*;
 import pages.CommonPage;
 import utils.LogUtils;
 
+import java.util.Properties;
+
+import static helper.PropertiesHelper.loadAllFiles;
+
 @Listeners(TestListeners.class)
 public class BaseTestE2E extends CommonPage {
+    Properties setUp = loadAllFiles();
+
     @BeforeClass
-    @Parameters({"browser"})
-    public void createDriver(@Optional("chrome") String browser) {
+    @Parameters({"browser", "url"})
+    public void createDriver(@Optional("chrome") String browser, @Optional("url") String url) {
         WebDriver driver;
         if (PropertiesHelper.getValue("BROWSER") != null && !PropertiesHelper.getValue("BROWSER").isEmpty()){
             driver = setUpDriver(PropertiesHelper.getValue("BROWSER"));
@@ -23,6 +29,17 @@ public class BaseTestE2E extends CommonPage {
             driver = setUpDriver(browser);
         }
         DriverFactory.setDriver(driver);
+
+        String targetUrl = setUp.getProperty("URL");
+        if (targetUrl == null || targetUrl.trim().isEmpty()) {
+            targetUrl = url;
+        }
+
+        if (targetUrl != null && !targetUrl.trim().isEmpty()) {
+            driver.get(targetUrl);
+        } else {
+            LogUtils.error("⚠️ WARNING: No URL provided in config or TestNG parameters.");
+        }
     }
 
     public WebDriver setUpDriver(String browser) {

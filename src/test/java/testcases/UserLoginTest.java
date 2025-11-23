@@ -21,8 +21,6 @@ public class UserLoginTest extends BaseTest {
         // record every step while testing
         // CaptureHelper.startRecord("userLoginTest");
 
-        openURL(ConfigData.URL);
-
         loginPage = new LoginPage();
         loginPage.getLoginPage();
 

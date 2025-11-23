@@ -1,6 +1,5 @@
 package pages;
 
-import keywords.WebUI;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import utils.LogUtils;
@@ -37,6 +36,8 @@ public class BasketPage extends CommonPage{
     String deliveryStandard = setUp.getProperty("DELIVERY_STANDARD");
     String resetBasket = setUp.getProperty("RESET_BASKET");
     String continueToCheckoutButton = setUp.getProperty("CONTINUE_CHECKOUT_BTN");
+    String totalAddedProductInBasket = setUp.getProperty("TOTAL_ADDED_PRODUCT_IN_BASKET");
+    String errorMessage = setUp.getProperty("ERROR_MESSAGE");
 
     public String getBasketHeader(){
         waitForElementPresent(By.xpath(basketHeader));
@@ -150,6 +151,19 @@ public class BasketPage extends CommonPage{
         } else {
             LogUtils.error("Basket item count mismatch. Expected: " + expectedCount + ", Actual: " + actualCount);
         }
+    }
+
+    public int getTotalProductInBasket(){
+        return Integer.parseInt(getElementText(By.xpath(totalAddedProductInBasket)));
+    }
+
+    public boolean hasAnyError() {
+        return !getListWebElements(By.cssSelector(errorMessage)).isEmpty();
+    }
+
+    public boolean allFieldsHaveErrors(int expected){
+        List<WebElement> getAllErrors = getListWebElements(By.cssSelector(errorMessage));
+        return getAllErrors.size() == expected;
     }
 
 }

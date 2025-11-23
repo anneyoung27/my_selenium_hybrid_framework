@@ -438,6 +438,36 @@ public class WebUI {
         Assert.assertTrue(check, message);
     }
 
+    // return boolean, not terminate the test (Soft Assert)
+    public static boolean verifyTrue(boolean condition) {
+        waitForPageLoaded();
+        LogUtils.info("⭐️ Verify TRUE: condition = " + condition);
+        ExtentTestManager.logMessage(Status.PASS, "⭐️ Verify TRUE: condition = " + condition);
+        return condition;
+    }
+
+    public static boolean verifyFalse(boolean condition) {
+        waitForPageLoaded();
+        LogUtils.info("⭐️ Verify FALSE: condition = " + condition);
+        ExtentTestManager.logMessage(Status.PASS, "⭐️ Verify FALSE: condition = " + condition);
+        return !condition;
+    }
+
+    // terminate the test if fail (Hard Assert)
+    public static void assertTrue(boolean condition, String message) {
+        waitForPageLoaded();
+        LogUtils.info("⭐️ Assert TRUE: " + condition);
+        ExtentTestManager.logMessage(Status.PASS, "⭐️ Assert TRUE: " + condition);
+        Assert.assertTrue(condition, message);
+    }
+
+    public static void assertFalse(boolean condition, String message) {
+        waitForPageLoaded();
+        LogUtils.info("⭐️ Assert FALSE: " + condition);
+        ExtentTestManager.logMessage(Status.PASS, "⭐️ Assert FALSE: " + condition);
+        Assert.assertFalse(condition, message);
+    }
+
     // Wait for Element
     public static void waitForElementVisible(By by) {
         try {

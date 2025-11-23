@@ -14,8 +14,6 @@ public class NavigateAboutPageTest extends BaseTest {
 
     @Test
     public void navigateAboutPage(){
-        openURL(ConfigData.URL);
-
         aboutPage = new AboutPage();
 
         aboutPage.clickAboutPage();

@@ -81,7 +81,3 @@ public class AddAndCheckoutProductTest extends BaseTest {
     }
 
 }
-// abis itu E2ETest setelah itu > bagian datadriventest & testdata
-// > bagian suites
-
-// cara agar @test 1 dan @test2 gabung, @test 2 ngikutin @test 1

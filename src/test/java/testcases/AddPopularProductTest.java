@@ -17,8 +17,6 @@ public class AddPopularProductTest extends BaseTest {
 
     @Test
     public void addPopularProduct(){
-        openURL(ConfigData.URL);
-
         homePage = new HomePage();
         homePage.getHomePage();
 

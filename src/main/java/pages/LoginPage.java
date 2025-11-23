@@ -21,6 +21,8 @@ public class LoginPage extends CommonPage{
     String passwordField = setUp.getProperty("PASSWORD");
     String loginButton = setUp.getProperty("LOGIN_BTN");
     String successfullyLogin = setUp.getProperty("SUCCESSFULLY_LOGIN"); // Welcome back test@user.com
+    String errorEmailMessage = setUp.getProperty("ERROR_EMAIL_MESSAGE");
+    String errorPasswordMessage = setUp.getProperty("ERROR_PASSWORD_MESSAGE");
 
     public String getHeaderText(){
         waitForElementPresent(By.xpath(loginHeader));
@@ -40,6 +42,16 @@ public class LoginPage extends CommonPage{
     public String getSuccessfullyLogin(){
         waitForElementClickable(By.xpath(successfullyLogin));
         return getElementText(By.xpath(successfullyLogin));
+    }
+
+    public String getErrorEmailMessage(){
+        waitForElementPresent(By.xpath(errorEmailMessage));
+        return getElementText(By.xpath(errorEmailMessage));
+    }
+
+    public String getErrorPasswordMessage(){
+        waitForElementPresent(By.xpath(errorPasswordMessage));
+        return getElementText(By.xpath(errorPasswordMessage));
     }
 
 }
