@@ -1,12 +1,9 @@
 package testcases;
 
 import common.BaseTest;
-import constant.ConfigData;
-import org.testng.Assert;
 import org.testng.annotations.Test;
 import pages.AboutPage;
 
-import static keywords.WebUI.openURL;
 import static keywords.WebUI.verifyEquals;
 
 public class NavigateAboutPageTest extends BaseTest {

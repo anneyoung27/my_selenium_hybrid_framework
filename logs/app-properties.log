@@ -1,207 +1,34 @@
-[INFO] 23-11-2025 17:36:08 [main] LogUtils - Properties loaded from multiple files: [src/main/resources/config.properties, src/main/java/objects/sweet_shop_locators.properties]
-[INFO] 23-11-2025 17:36:08 [main] LogUtils - Properties loaded from multiple files: [src/main/resources/config.properties, src/main/java/objects/sweet_shop_locators.properties]
-[INFO] 23-11-2025 17:36:08 [main] LogUtils - ⭐️ ********* START TESTING HybridSeleniumFrameworkParallelTesting *********
-[INFO] 23-11-2025 17:36:08 [main] LogUtils - Properties loaded from multiple files: [src/main/resources/config.properties, src/main/java/objects/sweet_shop_locators.properties]
-[INFO] 23-11-2025 17:36:08 [main] LogUtils - Launching Chrome browser...
-[INFO] 23-11-2025 17:36:11 [main] LogUtils - ➡️ Starting test case testLoginSuccess
-[INFO] 23-11-2025 17:36:11 [main] LogUtils - Properties loaded from multiple files: [src/main/resources/config.properties, src/main/java/objects/sweet_shop_locators.properties]
-[INFO] 23-11-2025 17:36:11 [main] LogUtils - Properties loaded from multiple files: [src/main/resources/config.properties, src/main/java/objects/sweet_shop_locators.properties]
-[INFO] 23-11-2025 17:36:11 [main] LogUtils - Properties loaded from multiple files: [src/main/resources/config.properties, src/main/java/objects/sweet_shop_locators.properties]
-[INFO] 23-11-2025 17:36:11 [main] LogUtils - Properties loaded from multiple files: [src/main/resources/config.properties, src/main/java/objects/sweet_shop_locators.properties]
-[INFO] 23-11-2025 17:36:12 [main] LogUtils - Timeout waiting for the element ready to click. By.cssSelector: .btn-primary
-[ERROR] 23-11-2025 17:36:12 [main] LogUtils - ❌ Test case testLoginSuccess failed.
-[ERROR] 23-11-2025 17:36:12 [main] LogUtils - java.lang.AssertionError: Timeout waiting for the element ready to click. By.cssSelector: .btn-primary
-[INFO] 23-11-2025 17:36:12 [main] LogUtils - Screenshot captured: D:\CodeProject\Java\MyProject\HybridSeleniumFrameworkParallelTesting\.\exports\screenshots\testLoginSuccess-2025-11-23 17.36.12.png
-[INFO] 23-11-2025 17:36:13 [main] LogUtils - Launching Chrome browser...
-[INFO] 23-11-2025 17:36:14 [main] LogUtils - ➡️ Starting test case testLoginFailWithEmailInvalid
-[INFO] 23-11-2025 17:36:14 [main] LogUtils - Properties loaded from multiple files: [src/main/resources/config.properties, src/main/java/objects/sweet_shop_locators.properties]
-[INFO] 23-11-2025 17:36:14 [main] LogUtils - Properties loaded from multiple files: [src/main/resources/config.properties, src/main/java/objects/sweet_shop_locators.properties]
-[INFO] 23-11-2025 17:36:14 [main] LogUtils - Properties loaded from multiple files: [src/main/resources/config.properties, src/main/java/objects/sweet_shop_locators.properties]
-[INFO] 23-11-2025 17:36:14 [main] LogUtils - Properties loaded from multiple files: [src/main/resources/config.properties, src/main/java/objects/sweet_shop_locators.properties]
-[INFO] 23-11-2025 17:36:18 [main] LogUtils - 🟢 Click element: By.xpath: //a[normalize-space()='Login']
-[INFO] 23-11-2025 17:36:18 [main] LogUtils - Properties loaded from multiple files: [src/main/resources/config.properties, src/main/java/objects/sweet_shop_locators.properties]
-[INFO] 23-11-2025 17:36:18 [main] LogUtils - Properties loaded from multiple files: [src/main/resources/config.properties, src/main/java/objects/sweet_shop_locators.properties]
-[INFO] 23-11-2025 17:36:22 [main] LogUtils - 🟢 Set text: admin4.com on element: By.xpath: //input[@id='exampleInputEmail']
-[INFO] 23-11-2025 17:36:25 [main] LogUtils - 🟢 Set text: 102020 on element: By.xpath: //input[@id='exampleInputPassword']
-[INFO] 23-11-2025 17:36:28 [main] LogUtils - 🟢 Click element: By.cssSelector: .btn-primary
-[INFO] 23-11-2025 17:36:31 [main] LogUtils - ➡️ Get text: Please enter a valid email address.
-[INFO] 23-11-2025 17:36:31 [main] LogUtils - ⭐️ Verify equals: Please enter a valid email address. 🟰 Please enter a valid email address.
-[INFO] 23-11-2025 17:36:31 [main] LogUtils - Set data completed!
-[INFO] 23-11-2025 17:36:31 [main] LogUtils - ✅ Test case testLoginFailWithEmailInvalid passed.
-[INFO] 23-11-2025 17:36:31 [main] LogUtils - Launching Chrome browser...
-[INFO] 23-11-2025 17:36:33 [main] LogUtils - ➡️ Starting test case testLoginFailWithEmailNull
-[INFO] 23-11-2025 17:36:33 [main] LogUtils - Properties loaded from multiple files: [src/main/resources/config.properties, src/main/java/objects/sweet_shop_locators.properties]
-[INFO] 23-11-2025 17:36:33 [main] LogUtils - Properties loaded from multiple files: [src/main/resources/config.properties, src/main/java/objects/sweet_shop_locators.properties]
-[INFO] 23-11-2025 17:36:33 [main] LogUtils - Properties loaded from multiple files: [src/main/resources/config.properties, src/main/java/objects/sweet_shop_locators.properties]
-[INFO] 23-11-2025 17:36:33 [main] LogUtils - Properties loaded from multiple files: [src/main/resources/config.properties, src/main/java/objects/sweet_shop_locators.properties]
-[INFO] 23-11-2025 17:36:36 [main] LogUtils - 🟢 Click element: By.xpath: //a[normalize-space()='Login']
-[INFO] 23-11-2025 17:36:36 [main] LogUtils - Properties loaded from multiple files: [src/main/resources/config.properties, src/main/java/objects/sweet_shop_locators.properties]
-[INFO] 23-11-2025 17:36:36 [main] LogUtils - Properties loaded from multiple files: [src/main/resources/config.properties, src/main/java/objects/sweet_shop_locators.properties]
-[INFO] 23-11-2025 17:36:39 [main] LogUtils - 🟢 Set text:  on element: By.xpath: //input[@id='exampleInputEmail']
-[INFO] 23-11-2025 17:36:42 [main] LogUtils - 🟢 Set text: 939392 on element: By.xpath: //input[@id='exampleInputPassword']
-[INFO] 23-11-2025 17:36:45 [main] LogUtils - 🟢 Click element: By.cssSelector: .btn-primary
-[INFO] 23-11-2025 17:36:48 [main] LogUtils - ➡️ Get text: Please enter a valid email address.
-[INFO] 23-11-2025 17:36:48 [main] LogUtils - ⭐️ Verify equals: Please enter a valid email address. 🟰 Please enter a valid email address.
-[INFO] 23-11-2025 17:36:48 [main] LogUtils - Set data completed!
-[INFO] 23-11-2025 17:36:48 [main] LogUtils - ✅ Test case testLoginFailWithEmailNull passed.
-[INFO] 23-11-2025 17:36:49 [main] LogUtils - Launching Chrome browser...
-[INFO] 23-11-2025 17:36:50 [main] LogUtils - ➡️ Starting test case testLoginFailWithPasswordNull
-[INFO] 23-11-2025 17:36:50 [main] LogUtils - Properties loaded from multiple files: [src/main/resources/config.properties, src/main/java/objects/sweet_shop_locators.properties]
-[INFO] 23-11-2025 17:36:50 [main] LogUtils - Properties loaded from multiple files: [src/main/resources/config.properties, src/main/java/objects/sweet_shop_locators.properties]
-[INFO] 23-11-2025 17:36:50 [main] LogUtils - Properties loaded from multiple files: [src/main/resources/config.properties, src/main/java/objects/sweet_shop_locators.properties]
-[INFO] 23-11-2025 17:36:50 [main] LogUtils - Properties loaded from multiple files: [src/main/resources/config.properties, src/main/java/objects/sweet_shop_locators.properties]
-[INFO] 23-11-2025 17:36:54 [main] LogUtils - 🟢 Click element: By.xpath: //a[normalize-space()='Login']
-[INFO] 23-11-2025 17:36:54 [main] LogUtils - Properties loaded from multiple files: [src/main/resources/config.properties, src/main/java/objects/sweet_shop_locators.properties]
-[INFO] 23-11-2025 17:36:54 [main] LogUtils - Properties loaded from multiple files: [src/main/resources/config.properties, src/main/java/objects/sweet_shop_locators.properties]
-[INFO] 23-11-2025 17:36:57 [main] LogUtils - 🟢 Set text: admin4@example.com on element: By.xpath: //input[@id='exampleInputEmail']
-[INFO] 23-11-2025 17:37:00 [main] LogUtils - 🟢 Set text:  on element: By.xpath: //input[@id='exampleInputPassword']
-[INFO] 23-11-2025 17:37:03 [main] LogUtils - 🟢 Click element: By.cssSelector: .btn-primary
-[INFO] 23-11-2025 17:37:06 [main] LogUtils - ➡️ Get text: Please enter a valid password.
-[INFO] 23-11-2025 17:37:06 [main] LogUtils - ⭐️ Verify equals: Please enter a valid password. 🟰 Please enter a valid password.
-[INFO] 23-11-2025 17:37:06 [main] LogUtils - Set data completed!
-[INFO] 23-11-2025 17:37:06 [main] LogUtils - ✅ Test case testLoginFailWithPasswordNull passed.
-[INFO] 23-11-2025 17:37:07 [main] LogUtils - ⭐️ ********* END TESTING HybridSeleniumFrameworkParallelTesting *********
-[INFO] 23-11-2025 17:39:48 [main] LogUtils - Properties loaded from multiple files: [src/main/resources/config.properties, src/main/java/objects/sweet_shop_locators.properties]
-[INFO] 23-11-2025 17:39:48 [main] LogUtils - Properties loaded from multiple files: [src/main/resources/config.properties, src/main/java/objects/sweet_shop_locators.properties]
-[INFO] 23-11-2025 17:39:48 [main] LogUtils - ⭐️ ********* START TESTING HybridSeleniumFrameworkParallelTesting *********
-[INFO] 23-11-2025 17:39:48 [main] LogUtils - Properties loaded from multiple files: [src/main/resources/config.properties, src/main/java/objects/sweet_shop_locators.properties]
-[INFO] 23-11-2025 17:39:48 [main] LogUtils - Launching Chrome browser...
-[INFO] 23-11-2025 17:39:51 [main] LogUtils - ➡️ Starting test case testLoginSuccess
-[INFO] 23-11-2025 17:39:52 [main] LogUtils - Properties loaded from multiple files: [src/main/resources/config.properties, src/main/java/objects/sweet_shop_locators.properties]
-[INFO] 23-11-2025 17:39:52 [main] LogUtils - Properties loaded from multiple files: [src/main/resources/config.properties, src/main/java/objects/sweet_shop_locators.properties]
-[INFO] 23-11-2025 17:39:52 [main] LogUtils - Properties loaded from multiple files: [src/main/resources/config.properties, src/main/java/objects/sweet_shop_locators.properties]
-[INFO] 23-11-2025 17:39:52 [main] LogUtils - Properties loaded from multiple files: [src/main/resources/config.properties, src/main/java/objects/sweet_shop_locators.properties]
-[INFO] 23-11-2025 17:40:34 [main] LogUtils - Element not exist. By.xpath: //input[@id='exampleInputEmail']
-[ERROR] 23-11-2025 17:40:34 [main] LogUtils - ❌ Test case testLoginSuccess failed.
-[ERROR] 23-11-2025 17:40:34 [main] LogUtils - java.lang.AssertionError: Element not exist. By.xpath: //input[@id='exampleInputEmail']
-[INFO] 23-11-2025 17:40:34 [main] LogUtils - Screenshot captured: D:\CodeProject\Java\MyProject\HybridSeleniumFrameworkParallelTesting\.\exports\screenshots\testLoginSuccess-2025-11-23 17.40.34.png
-[INFO] 23-11-2025 17:40:35 [main] LogUtils - Launching Chrome browser...
-[INFO] 23-11-2025 17:40:36 [main] LogUtils - ➡️ Starting test case testLoginFailWithEmailInvalid
-[INFO] 23-11-2025 17:40:36 [main] LogUtils - Properties loaded from multiple files: [src/main/resources/config.properties, src/main/java/objects/sweet_shop_locators.properties]
-[INFO] 23-11-2025 17:40:36 [main] LogUtils - Properties loaded from multiple files: [src/main/resources/config.properties, src/main/java/objects/sweet_shop_locators.properties]
-[INFO] 23-11-2025 17:40:36 [main] LogUtils - Properties loaded from multiple files: [src/main/resources/config.properties, src/main/java/objects/sweet_shop_locators.properties]
-[INFO] 23-11-2025 17:40:36 [main] LogUtils - Properties loaded from multiple files: [src/main/resources/config.properties, src/main/java/objects/sweet_shop_locators.properties]
-[INFO] 23-11-2025 17:40:50 [main] LogUtils - Properties loaded from multiple files: [src/main/resources/config.properties, src/main/java/objects/sweet_shop_locators.properties]
-[INFO] 23-11-2025 17:40:50 [main] LogUtils - Properties loaded from multiple files: [src/main/resources/config.properties, src/main/java/objects/sweet_shop_locators.properties]
-[INFO] 23-11-2025 17:40:50 [main] LogUtils - ⭐️ ********* START TESTING HybridSeleniumFrameworkParallelTesting *********
-[INFO] 23-11-2025 17:40:50 [main] LogUtils - Properties loaded from multiple files: [src/main/resources/config.properties, src/main/java/objects/sweet_shop_locators.properties]
-[INFO] 23-11-2025 17:40:50 [main] LogUtils - Launching Chrome browser...
-[INFO] 23-11-2025 17:40:52 [main] LogUtils - ➡️ Starting test case testLoginSuccess
-[INFO] 23-11-2025 17:40:52 [main] LogUtils - Properties loaded from multiple files: [src/main/resources/config.properties, src/main/java/objects/sweet_shop_locators.properties]
-[INFO] 23-11-2025 17:40:52 [main] LogUtils - Properties loaded from multiple files: [src/main/resources/config.properties, src/main/java/objects/sweet_shop_locators.properties]
-[INFO] 23-11-2025 17:40:52 [main] LogUtils - Properties loaded from multiple files: [src/main/resources/config.properties, src/main/java/objects/sweet_shop_locators.properties]
-[INFO] 23-11-2025 17:40:52 [main] LogUtils - Properties loaded from multiple files: [src/main/resources/config.properties, src/main/java/objects/sweet_shop_locators.properties]
-[INFO] 23-11-2025 17:40:57 [main] LogUtils - 🟢 Click element: By.xpath: //a[normalize-space()='Login']
-[INFO] 23-11-2025 17:40:57 [main] LogUtils - Properties loaded from multiple files: [src/main/resources/config.properties, src/main/java/objects/sweet_shop_locators.properties]
-[INFO] 23-11-2025 17:40:57 [main] LogUtils - Properties loaded from multiple files: [src/main/resources/config.properties, src/main/java/objects/sweet_shop_locators.properties]
-[INFO] 23-11-2025 17:41:01 [main] LogUtils - 🟢 Set text: admin@example.com on element: By.xpath: //input[@id='exampleInputEmail']
-[INFO] 23-11-2025 17:41:04 [main] LogUtils - 🟢 Set text: 123456 on element: By.xpath: //input[@id='exampleInputPassword']
-[INFO] 23-11-2025 17:41:07 [main] LogUtils - 🟢 Click element: By.cssSelector: .btn-primary
-[INFO] 23-11-2025 17:41:07 [main] LogUtils - Set data completed!
-[INFO] 23-11-2025 17:41:36 [main] LogUtils - Properties loaded from multiple files: [src/main/resources/config.properties, src/main/java/objects/sweet_shop_locators.properties]
-[INFO] 23-11-2025 17:41:36 [main] LogUtils - Properties loaded from multiple files: [src/main/resources/config.properties, src/main/java/objects/sweet_shop_locators.properties]
-[INFO] 23-11-2025 17:41:36 [main] LogUtils - ⭐️ ********* START TESTING HybridSeleniumFrameworkParallelTesting *********
-[INFO] 23-11-2025 17:41:36 [main] LogUtils - Properties loaded from multiple files: [src/main/resources/config.properties, src/main/java/objects/sweet_shop_locators.properties]
-[INFO] 23-11-2025 17:41:36 [main] LogUtils - Launching Chrome browser...
-[INFO] 23-11-2025 17:41:39 [main] LogUtils - ➡️ Starting test case testLoginSuccess
-[INFO] 23-11-2025 17:41:39 [main] LogUtils - Properties loaded from multiple files: [src/main/resources/config.properties, src/main/java/objects/sweet_shop_locators.properties]
-[INFO] 23-11-2025 17:41:39 [main] LogUtils - Properties loaded from multiple files: [src/main/resources/config.properties, src/main/java/objects/sweet_shop_locators.properties]
-[INFO] 23-11-2025 17:41:39 [main] LogUtils - Properties loaded from multiple files: [src/main/resources/config.properties, src/main/java/objects/sweet_shop_locators.properties]
-[INFO] 23-11-2025 17:41:39 [main] LogUtils - Properties loaded from multiple files: [src/main/resources/config.properties, src/main/java/objects/sweet_shop_locators.properties]
-[INFO] 23-11-2025 17:41:44 [main] LogUtils - 🟢 Click element: By.xpath: //a[normalize-space()='Login']
-[INFO] 23-11-2025 17:41:44 [main] LogUtils - Properties loaded from multiple files: [src/main/resources/config.properties, src/main/java/objects/sweet_shop_locators.properties]
-[INFO] 23-11-2025 17:41:44 [main] LogUtils - Properties loaded from multiple files: [src/main/resources/config.properties, src/main/java/objects/sweet_shop_locators.properties]
-[INFO] 23-11-2025 17:41:48 [main] LogUtils - 🟢 Set text: admin@example.com on element: By.xpath: //input[@id='exampleInputEmail']
-[INFO] 23-11-2025 17:41:51 [main] LogUtils - 🟢 Set text: 123456 on element: By.xpath: //input[@id='exampleInputPassword']
-[INFO] 23-11-2025 17:41:54 [main] LogUtils - 🟢 Click element: By.cssSelector: .btn-primary
-[INFO] 23-11-2025 17:41:55 [main] LogUtils - Set data completed!
-[INFO] 23-11-2025 17:41:58 [main] LogUtils - 🟢 Click element: By.xpath: //a[normalize-space()='Login']
-[INFO] 23-11-2025 17:41:58 [main] LogUtils - Properties loaded from multiple files: [src/main/resources/config.properties, src/main/java/objects/sweet_shop_locators.properties]
-[INFO] 23-11-2025 17:41:58 [main] LogUtils - Properties loaded from multiple files: [src/main/resources/config.properties, src/main/java/objects/sweet_shop_locators.properties]
-[INFO] 23-11-2025 17:42:01 [main] LogUtils - 🟢 Set text: admin2@example.com on element: By.xpath: //input[@id='exampleInputEmail']
-[INFO] 23-11-2025 17:42:05 [main] LogUtils - 🟢 Set text: 123456 on element: By.xpath: //input[@id='exampleInputPassword']
-[INFO] 23-11-2025 17:42:08 [main] LogUtils - 🟢 Click element: By.cssSelector: .btn-primary
-[INFO] 23-11-2025 17:42:08 [main] LogUtils - Set data completed!
-[INFO] 23-11-2025 17:42:11 [main] LogUtils - 🟢 Click element: By.xpath: //a[normalize-space()='Login']
-[INFO] 23-11-2025 17:42:11 [main] LogUtils - Properties loaded from multiple files: [src/main/resources/config.properties, src/main/java/objects/sweet_shop_locators.properties]
-[INFO] 23-11-2025 17:42:11 [main] LogUtils - Properties loaded from multiple files: [src/main/resources/config.properties, src/main/java/objects/sweet_shop_locators.properties]
-[INFO] 23-11-2025 17:42:35 [main] LogUtils - Properties loaded from multiple files: [src/main/resources/config.properties, src/main/java/objects/sweet_shop_locators.properties]
-[INFO] 23-11-2025 17:42:35 [main] LogUtils - Properties loaded from multiple files: [src/main/resources/config.properties, src/main/java/objects/sweet_shop_locators.properties]
-[INFO] 23-11-2025 17:42:35 [main] LogUtils - ⭐️ ********* START TESTING HybridSeleniumFrameworkParallelTesting *********
-[INFO] 23-11-2025 17:42:35 [main] LogUtils - Properties loaded from multiple files: [src/main/resources/config.properties, src/main/java/objects/sweet_shop_locators.properties]
-[INFO] 23-11-2025 17:42:35 [main] LogUtils - Launching Chrome browser...
-[INFO] 23-11-2025 17:42:37 [main] LogUtils - ➡️ Starting test case testLoginSuccess
-[INFO] 23-11-2025 17:42:38 [main] LogUtils - Properties loaded from multiple files: [src/main/resources/config.properties, src/main/java/objects/sweet_shop_locators.properties]
-[INFO] 23-11-2025 17:42:38 [main] LogUtils - Properties loaded from multiple files: [src/main/resources/config.properties, src/main/java/objects/sweet_shop_locators.properties]
-[INFO] 23-11-2025 17:42:38 [main] LogUtils - Properties loaded from multiple files: [src/main/resources/config.properties, src/main/java/objects/sweet_shop_locators.properties]
-[INFO] 23-11-2025 17:42:38 [main] LogUtils - Properties loaded from multiple files: [src/main/resources/config.properties, src/main/java/objects/sweet_shop_locators.properties]
-[INFO] 23-11-2025 17:42:42 [main] LogUtils - 🟢 Click element: By.xpath: //a[normalize-space()='Login']
-[INFO] 23-11-2025 17:42:42 [main] LogUtils - Properties loaded from multiple files: [src/main/resources/config.properties, src/main/java/objects/sweet_shop_locators.properties]
-[INFO] 23-11-2025 17:42:42 [main] LogUtils - Properties loaded from multiple files: [src/main/resources/config.properties, src/main/java/objects/sweet_shop_locators.properties]
-[INFO] 23-11-2025 17:42:46 [main] LogUtils - 🟢 Set text: admin@example.com on element: By.xpath: //input[@id='exampleInputEmail']
-[INFO] 23-11-2025 17:42:49 [main] LogUtils - 🟢 Set text: 123456 on element: By.xpath: //input[@id='exampleInputPassword']
-[INFO] 23-11-2025 17:42:52 [main] LogUtils - 🟢 Click element: By.cssSelector: .btn-primary
-[INFO] 23-11-2025 17:42:53 [main] LogUtils - Set data completed!
-[INFO] 23-11-2025 17:42:56 [main] LogUtils - 🟢 Click element: By.xpath: //a[normalize-space()='Login']
-[INFO] 23-11-2025 17:42:56 [main] LogUtils - Properties loaded from multiple files: [src/main/resources/config.properties, src/main/java/objects/sweet_shop_locators.properties]
-[INFO] 23-11-2025 17:42:56 [main] LogUtils - Properties loaded from multiple files: [src/main/resources/config.properties, src/main/java/objects/sweet_shop_locators.properties]
-[INFO] 23-11-2025 17:42:59 [main] LogUtils - 🟢 Set text: admin2@example.com on element: By.xpath: //input[@id='exampleInputEmail']
-[INFO] 23-11-2025 17:43:02 [main] LogUtils - 🟢 Set text: 123456 on element: By.xpath: //input[@id='exampleInputPassword']
-[INFO] 23-11-2025 17:43:06 [main] LogUtils - 🟢 Click element: By.cssSelector: .btn-primary
-[INFO] 23-11-2025 17:43:06 [main] LogUtils - Set data completed!
-[INFO] 23-11-2025 17:43:09 [main] LogUtils - 🟢 Click element: By.xpath: //a[normalize-space()='Login']
-[INFO] 23-11-2025 17:43:09 [main] LogUtils - Properties loaded from multiple files: [src/main/resources/config.properties, src/main/java/objects/sweet_shop_locators.properties]
-[INFO] 23-11-2025 17:43:09 [main] LogUtils - Properties loaded from multiple files: [src/main/resources/config.properties, src/main/java/objects/sweet_shop_locators.properties]
-[INFO] 23-11-2025 17:43:50 [main] LogUtils - Element not exist. By.xpath: //input[@id='exampleInputEmail']
-[ERROR] 23-11-2025 17:43:50 [main] LogUtils - ❌ Test case testLoginSuccess failed.
-[ERROR] 23-11-2025 17:43:50 [main] LogUtils - java.lang.AssertionError: Element not exist. By.xpath: //input[@id='exampleInputEmail']
-[INFO] 23-11-2025 17:43:50 [main] LogUtils - Screenshot captured: D:\CodeProject\Java\MyProject\HybridSeleniumFrameworkParallelTesting\.\exports\screenshots\testLoginSuccess-2025-11-23 17.43.50.png
-[INFO] 23-11-2025 17:43:50 [main] LogUtils - Launching Chrome browser...
-[INFO] 23-11-2025 17:43:53 [main] LogUtils - ➡️ Starting test case testLoginFailWithEmailInvalid
-[INFO] 23-11-2025 17:43:53 [main] LogUtils - Properties loaded from multiple files: [src/main/resources/config.properties, src/main/java/objects/sweet_shop_locators.properties]
-[INFO] 23-11-2025 17:43:53 [main] LogUtils - Properties loaded from multiple files: [src/main/resources/config.properties, src/main/java/objects/sweet_shop_locators.properties]
-[INFO] 23-11-2025 17:43:53 [main] LogUtils - Properties loaded from multiple files: [src/main/resources/config.properties, src/main/java/objects/sweet_shop_locators.properties]
-[INFO] 23-11-2025 17:43:53 [main] LogUtils - Properties loaded from multiple files: [src/main/resources/config.properties, src/main/java/objects/sweet_shop_locators.properties]
-[INFO] 23-11-2025 17:43:56 [main] LogUtils - 🟢 Click element: By.xpath: //a[normalize-space()='Login']
-[INFO] 23-11-2025 17:43:56 [main] LogUtils - Properties loaded from multiple files: [src/main/resources/config.properties, src/main/java/objects/sweet_shop_locators.properties]
-[INFO] 23-11-2025 17:43:56 [main] LogUtils - Properties loaded from multiple files: [src/main/resources/config.properties, src/main/java/objects/sweet_shop_locators.properties]
-[INFO] 23-11-2025 17:43:59 [main] LogUtils - 🟢 Set text: admin4.com on element: By.xpath: //input[@id='exampleInputEmail']
-[INFO] 23-11-2025 17:44:02 [main] LogUtils - 🟢 Set text: 102020 on element: By.xpath: //input[@id='exampleInputPassword']
-[INFO] 23-11-2025 17:44:05 [main] LogUtils - 🟢 Click element: By.cssSelector: .btn-primary
-[INFO] 23-11-2025 17:44:09 [main] LogUtils - ➡️ Get text: Please enter a valid email address.
-[INFO] 23-11-2025 17:44:09 [main] LogUtils - ⭐️ Verify equals: Please enter a valid email address. 🟰 Please enter a valid email address.
-[INFO] 23-11-2025 17:44:09 [main] LogUtils - Set data completed!
-[INFO] 23-11-2025 17:44:09 [main] LogUtils - ✅ Test case testLoginFailWithEmailInvalid passed.
-[INFO] 23-11-2025 17:44:09 [main] LogUtils - Launching Chrome browser...
-[INFO] 23-11-2025 17:44:10 [main] LogUtils - ➡️ Starting test case testLoginFailWithEmailNull
-[INFO] 23-11-2025 17:44:10 [main] LogUtils - Properties loaded from multiple files: [src/main/resources/config.properties, src/main/java/objects/sweet_shop_locators.properties]
-[INFO] 23-11-2025 17:44:10 [main] LogUtils - Properties loaded from multiple files: [src/main/resources/config.properties, src/main/java/objects/sweet_shop_locators.properties]
-[INFO] 23-11-2025 17:44:10 [main] LogUtils - Properties loaded from multiple files: [src/main/resources/config.properties, src/main/java/objects/sweet_shop_locators.properties]
-[INFO] 23-11-2025 17:44:10 [main] LogUtils - Properties loaded from multiple files: [src/main/resources/config.properties, src/main/java/objects/sweet_shop_locators.properties]
-[INFO] 23-11-2025 17:44:14 [main] LogUtils - 🟢 Click element: By.xpath: //a[normalize-space()='Login']
-[INFO] 23-11-2025 17:44:14 [main] LogUtils - Properties loaded from multiple files: [src/main/resources/config.properties, src/main/java/objects/sweet_shop_locators.properties]
-[INFO] 23-11-2025 17:44:14 [main] LogUtils - Properties loaded from multiple files: [src/main/resources/config.properties, src/main/java/objects/sweet_shop_locators.properties]
-[INFO] 23-11-2025 17:44:17 [main] LogUtils - 🟢 Set text:  on element: By.xpath: //input[@id='exampleInputEmail']
-[INFO] 23-11-2025 17:44:20 [main] LogUtils - 🟢 Set text: 939392 on element: By.xpath: //input[@id='exampleInputPassword']
-[INFO] 23-11-2025 17:44:23 [main] LogUtils - 🟢 Click element: By.cssSelector: .btn-primary
-[INFO] 23-11-2025 17:44:26 [main] LogUtils - ➡️ Get text: Please enter a valid email address.
-[INFO] 23-11-2025 17:44:26 [main] LogUtils - ⭐️ Verify equals: Please enter a valid email address. 🟰 Please enter a valid email address.
-[INFO] 23-11-2025 17:44:26 [main] LogUtils - Set data completed!
-[INFO] 23-11-2025 17:44:26 [main] LogUtils - ✅ Test case testLoginFailWithEmailNull passed.
-[INFO] 23-11-2025 17:44:26 [main] LogUtils - Launching Chrome browser...
-[INFO] 23-11-2025 17:44:27 [main] LogUtils - ➡️ Starting test case testLoginFailWithPasswordNull
-[INFO] 23-11-2025 17:44:27 [main] LogUtils - Properties loaded from multiple files: [src/main/resources/config.properties, src/main/java/objects/sweet_shop_locators.properties]
-[INFO] 23-11-2025 17:44:27 [main] LogUtils - Properties loaded from multiple files: [src/main/resources/config.properties, src/main/java/objects/sweet_shop_locators.properties]
-[INFO] 23-11-2025 17:44:27 [main] LogUtils - Properties loaded from multiple files: [src/main/resources/config.properties, src/main/java/objects/sweet_shop_locators.properties]
-[INFO] 23-11-2025 17:44:27 [main] LogUtils - Properties loaded from multiple files: [src/main/resources/config.properties, src/main/java/objects/sweet_shop_locators.properties]
-[INFO] 23-11-2025 17:44:31 [main] LogUtils - 🟢 Click element: By.xpath: //a[normalize-space()='Login']
-[INFO] 23-11-2025 17:44:31 [main] LogUtils - Properties loaded from multiple files: [src/main/resources/config.properties, src/main/java/objects/sweet_shop_locators.properties]
-[INFO] 23-11-2025 17:44:31 [main] LogUtils - Properties loaded from multiple files: [src/main/resources/config.properties, src/main/java/objects/sweet_shop_locators.properties]
-[INFO] 23-11-2025 17:44:34 [main] LogUtils - 🟢 Set text: admin4@example.com on element: By.xpath: //input[@id='exampleInputEmail']
-[INFO] 23-11-2025 17:44:37 [main] LogUtils - 🟢 Set text:  on element: By.xpath: //input[@id='exampleInputPassword']
-[INFO] 23-11-2025 17:44:40 [main] LogUtils - 🟢 Click element: By.cssSelector: .btn-primary
-[INFO] 23-11-2025 17:44:43 [main] LogUtils - ➡️ Get text: Please enter a valid password.
-[INFO] 23-11-2025 17:44:43 [main] LogUtils - ⭐️ Verify equals: Please enter a valid password. 🟰 Please enter a valid password.
-[INFO] 23-11-2025 17:44:43 [main] LogUtils - Set data completed!
-[INFO] 23-11-2025 17:44:43 [main] LogUtils - ✅ Test case testLoginFailWithPasswordNull passed.
-[INFO] 23-11-2025 17:44:43 [main] LogUtils - ⭐️ ********* END TESTING HybridSeleniumFrameworkParallelTesting *********
+[INFO] 23-11-2025 19:40:53 [main] LogUtils - Properties loaded from multiple files: [src/main/resources/config.properties, src/main/java/objects/sweet_shop_locators.properties]
+[INFO] 23-11-2025 19:40:53 [main] LogUtils - Properties loaded from multiple files: [src/main/resources/config.properties, src/main/java/objects/sweet_shop_locators.properties]
+[INFO] 23-11-2025 19:40:53 [main] LogUtils - Properties loaded from multiple files: [src/main/resources/config.properties, src/main/java/objects/sweet_shop_locators.properties]
+[INFO] 23-11-2025 19:40:53 [main] LogUtils - Properties loaded from multiple files: [src/main/resources/config.properties, src/main/java/objects/sweet_shop_locators.properties]
+[INFO] 23-11-2025 19:40:53 [main] LogUtils - ⭐️ ********* START TESTING Demo Test Listener *********
+[INFO] 23-11-2025 19:40:53 [main] LogUtils - Properties loaded from multiple files: [src/main/resources/config.properties, src/main/java/objects/sweet_shop_locators.properties]
+[INFO] 23-11-2025 19:40:54 [main] LogUtils - Launching Chrome browser...
+[INFO] 23-11-2025 19:40:56 [main] LogUtils - ➡️ Starting test case userLoginTest
+[INFO] 23-11-2025 19:40:56 [main] LogUtils - Properties loaded from multiple files: [src/main/resources/config.properties, src/main/java/objects/sweet_shop_locators.properties]
+[INFO] 23-11-2025 19:40:56 [main] LogUtils - Properties loaded from multiple files: [src/main/resources/config.properties, src/main/java/objects/sweet_shop_locators.properties]
+[INFO] 23-11-2025 19:40:56 [main] LogUtils - Properties loaded from multiple files: [src/main/resources/config.properties, src/main/java/objects/sweet_shop_locators.properties]
+[INFO] 23-11-2025 19:40:56 [main] LogUtils - Properties loaded from multiple files: [src/main/resources/config.properties, src/main/java/objects/sweet_shop_locators.properties]
+[INFO] 23-11-2025 19:41:00 [main] LogUtils - 🟢 Click element: By.xpath: //a[normalize-space()='Login']
+[INFO] 23-11-2025 19:41:00 [main] LogUtils - Properties loaded from multiple files: [src/main/resources/config.properties, src/main/java/objects/sweet_shop_locators.properties]
+[INFO] 23-11-2025 19:41:00 [main] LogUtils - Properties loaded from multiple files: [src/main/resources/config.properties, src/main/java/objects/sweet_shop_locators.properties]
+[INFO] 23-11-2025 19:41:03 [main] LogUtils - ➡️ Get text: Login
+[INFO] 23-11-2025 19:41:03 [main] LogUtils - ⭐️ Verify equals: Login 🟰 Login
+[INFO] 23-11-2025 19:41:06 [main] LogUtils - 🟢 Set text: lonny.murazik@yahoo.com on element: By.xpath: //input[@id='exampleInputEmail']
+[INFO] 23-11-2025 19:41:09 [main] LogUtils - 🟢 Set text: 3242p818cg38 on element: By.xpath: //input[@id='exampleInputPassword']
+[INFO] 23-11-2025 19:41:12 [main] LogUtils - 🟢 Click element: By.cssSelector: .btn-primary
+[INFO] 23-11-2025 19:41:15 [main] LogUtils - ➡️ Get text: Welcome back test@user.com
+[INFO] 23-11-2025 19:41:15 [main] LogUtils - ⭐️ Verify equals: Welcome back test@user.com 🟰 Welcome back test@user.com
+[INFO] 23-11-2025 19:41:15 [main] LogUtils - ✅ Test case userLoginTest passed.
+[INFO] 23-11-2025 19:41:16 [main] LogUtils - Launching Chrome browser...
+[INFO] 23-11-2025 19:41:17 [main] LogUtils - ➡️ Starting test case navigateAboutPage
+[INFO] 23-11-2025 19:41:17 [main] LogUtils - Properties loaded from multiple files: [src/main/resources/config.properties, src/main/java/objects/sweet_shop_locators.properties]
+[INFO] 23-11-2025 19:41:17 [main] LogUtils - Properties loaded from multiple files: [src/main/resources/config.properties, src/main/java/objects/sweet_shop_locators.properties]
+[INFO] 23-11-2025 19:41:20 [main] LogUtils - 🟢 Click element: By.xpath: //a[normalize-space()='About']
+[INFO] 23-11-2025 19:41:20 [main] LogUtils - Properties loaded from multiple files: [src/main/resources/config.properties, src/main/java/objects/sweet_shop_locators.properties]
+[INFO] 23-11-2025 19:41:20 [main] LogUtils - Properties loaded from multiple files: [src/main/resources/config.properties, src/main/java/objects/sweet_shop_locators.properties]
+[INFO] 23-11-2025 19:41:23 [main] LogUtils - ➡️ Get text: Sweet Shop Project
+[INFO] 23-11-2025 19:41:23 [main] LogUtils - ⭐️ Verify equals: Sweet Shop Project 🟰 Sweet Shop Project
+[INFO] 23-11-2025 19:41:23 [main] LogUtils - ✅ Test case navigateAboutPage passed.
+[INFO] 23-11-2025 19:41:23 [main] LogUtils - ⭐️ ********* END TESTING Demo Test Listener *********

@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite Parallel Testing By Classes" verbose="1" parallel="classes">
+    <test name="Parallel Testing By Classes" parallel="methods" thread-count="4">
+        <classes>
+            <class name="parallelExecution.ChromeTest"/>
+            <class name="parallelExecution.FirefoxTest"/>
+        </classes>
+    </test>
+</suite>

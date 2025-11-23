@@ -1,4 +1,4 @@
-package datadriventest;
+package dataDrivenTest;
 
 import common.BaseTest;
 import helper.ExcelHelper;
