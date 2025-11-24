@@ -73,6 +73,15 @@ The test reports can be found in:<br />
 ```./reports```<br />
 The report will be generated upon execution and will include screenshots if any failures occur during the testing process.
 
+### 3. Record and Capture every step while testing
+a. To record
+`CaptureHelper.startRecord(method_name); ..code logic.. CaptureHelper.stopRecord();`
+b. To capture
+`CaptureHelper.screenshot(step); ...code logic .. CaptureHelper.screenshot(step);`
+
+To view the result `./exports/screenshots` and `./exports/videos`
+
+
 ## Installation
 1. Clone this repository:<br />
    `git clone https://github.com/anneyoung27/my_selenium_hybrid_framework.git`
