@@ -88,9 +88,9 @@ CaptureHelper.screenshot(step);
 // ... test logic here ...
 CaptureHelper.screenshot(step);
 ```
-c. Viewing the results:
-All recording outputs and screenshots are stored in:
-`./exports/videos`
+c. Viewing the results:<br />
+All recording outputs and screenshots are stored in:<br />
+`./exports/videos`<br />
 `./exports/screenshots`
 
 
