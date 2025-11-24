@@ -73,13 +73,25 @@ The test reports can be found in:<br />
 ```./reports```<br />
 The report will be generated upon execution and will include screenshots if any failures occur during the testing process.
 
-### 3. Record and Capture every step while testing
-a. To record
-`CaptureHelper.startRecord(method_name); ..code logic.. CaptureHelper.stopRecord();`
-b. To capture
-`CaptureHelper.screenshot(step); ...code logic .. CaptureHelper.screenshot(step);`
-
-To view the result `./exports/screenshots` and `./exports/videos`
+### 3. Record and Capture Every Step During Testing
+a. Recording video:
+Use the following commands to start and stop recording around your test logic:
+```
+CaptureHelper.startRecord(method_name);
+// ... test logic here ...
+CaptureHelper.stopRecord();
+```
+b. Capturing screenshots:
+Use the screenshot method before or after your test steps:
+```
+CaptureHelper.screenshot(step);
+// ... test logic here ...
+CaptureHelper.screenshot(step);
+```
+c. Viewing the results:
+All recording outputs and screenshots are stored in:
+`./exports/videos`
+`./exports/screenshots`
 
 
 ## Installation
