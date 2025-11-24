@@ -29,6 +29,7 @@ The purpose of this project is to implement what I have learned in web automatio
 - ExtentReport
 - Allure Report
 - Data Faker
+- Apache POI (Excel processing)
 
 ## Project Structure
 ```
