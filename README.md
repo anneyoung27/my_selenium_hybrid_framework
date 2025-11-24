@@ -69,19 +69,28 @@ The UI tests cover the functionality of the website, focusing on key features su
     - LoginTestWithExcel
 
 ### 3. Viewing the reports
+a. Extent Reports<br />
 The test reports can be found in:<br />
 ```./reports```<br />
 The report will be generated upon execution and will include screenshots if any failures occur during the testing process.
 
+b. Allure Report<br />
+To run Allure report inside the target directory<br />
+`allure serve target/allure-results`<br />
+or, to generate the report without opening it automatically:<br />
+`allure generate target/allure-results -o target/allure-report --clean`<br />
+Then manually open the report:<br />
+`allure open target/allure-report`
+
 ### 3. Record and Capture Every Step During Testing
-a. Recording video:
+a. Recording video:<br />
 Use the following commands to start and stop recording around your test logic:
 ```
 CaptureHelper.startRecord(method_name);
 // ... test logic here ...
 CaptureHelper.stopRecord();
 ```
-b. Capturing screenshots:
+b. Capturing screenshots:<br />
 Use the screenshot method before or after your test steps:
 ```
 CaptureHelper.screenshot(step);
